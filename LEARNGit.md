@@ -27,7 +27,7 @@ __list all git steps__ (`index HEAD@{index}`):
 ### delete from master
 - `git checkout master`
 - `git reset HEAD~ --hard`
-# Git won't do a diff of files add to staging area without this flag. 
+### Git won't do a diff of files add to staging area without this flag. 
 - `git diff --staged`
 
 # Resources
