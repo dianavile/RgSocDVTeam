@@ -6,9 +6,9 @@ _"Git is hard: screwing up is easy, and figuring out how to fix your mistakes is
 
 
 ## TROUBLE SHOOTING
-__list all git steps__, all branches, `index HEAD@{index}`:
+__list all git steps__ (`index HEAD@{index}`):
 `git reflog`
-### find __last git step before its broken__:
+### find __last git step before it breaks__:
 `git reset HEAD@{index}`
 ### make change
 `git add . #` or add individual files
