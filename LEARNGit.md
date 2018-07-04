@@ -6,9 +6,9 @@ _"Git is hard: screwing up is easy, and figuring out how to fix your mistakes is
 - [Git Cheatsheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 
 #### CREATE REPOSITORIES: 
-- Start a new repository or obtain one from an existing URL: `$ git init [project-name]`
-- Creates a new local repository with the specified name: `$ git clone [url]`
-- Downloads a project and its entire version history
+-  `$ git init [project-name]` (Start new repository/Obtain one from an existing URL)
+-  `$ git clone [url]` (Create new local repository with specified name)
+- (Downloads project and entire version history)
 
 ## TROUBLE SHOOTING
 __list all git steps__ (`index HEAD@{index}`):
