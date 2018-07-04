@@ -3,7 +3,7 @@
 _"Git is hard: screwing up is easy, and figuring out how to fix your mistakes is fucking impossible."_  
 
 ## Basic Git Commands
-
+- [Git Cheatsheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 
 ## TROUBLE SHOOTING
 __list all git steps__ (`index HEAD@{index}`):
