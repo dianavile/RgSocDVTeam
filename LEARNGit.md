@@ -1,14 +1,13 @@
 # **Learn** Git
 
-_"Git is hard: screwing up is easy, and figuring out how to fix your mistakes is fucking impossible."_  
+_"Git is hard: screwing up is easy, and figuring out how to fix your mistakes is fucking impossible.- from: OShitGit"_  
 
 ## Basic Git Commands
 - [Git Cheatsheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 
-#### CREATE REPOSITORIES: 
--  `$ git init [project-name]` (Start new repository/Obtain one from an existing URL)
--  `$ git clone [url]` (Create new local repository with specified name)
-- (Downloads project and entire version history)
+#### CREATE REPOSITORIES: (Start new repository/Obtain one from an existing URL)
+-  `$ git init [project-name]` (Create new local repository with specified name)
+-  `$ git clone [url]` (Downloads project and entire version history)
 
 ## TROUBLE SHOOTING
 __list all git steps__ (`index HEAD@{index}`):
