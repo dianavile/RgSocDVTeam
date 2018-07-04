@@ -2,11 +2,31 @@
 
 _"Git is hard: screwing up is easy, and figuring out how to fix your mistakes is fucking impossible.- from: OShitGit"_  
 
-## Basic Git Commands (see[Git Cheatsheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf))
+## Basic Git Commands (see [Git Cheatsheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf))
+Common git commands in day-to-day workflow
 
-#### CREATE REPOSITORIES: (Start new repository/Obtain one from an existing URL)
+#### CONFIGURE TOOLING: (Configure user information for all local repositories)
+- `$ git config --global user.name "[name]"`(Sets the name you want atached to your commit transactions)
+- `$ git config --global user.email "[email address]"`(Sets the email you want atached to your commit transactions)
+- `$ git config --global color.ui auto` (Enables helpful colorization of command line output)
+
+#### CREATE REPO: (Start new repository/Obtain one from an existing URL)
+-  `$ git init`(Create an empty git repo/reinitialize an existing one)
 -  `$ git init [project-name]` (Create new local repository with specified name)
 -  `$ git clone [url]` (Downloads project and entire version history)
+#### FORK A REPO
+Click the `"Fork"` button at the top-right of any repository's GitHub page.
+#### CLONE A REPO 
+-  `$ git clone https://github.com/<username>/foo.git foo`(Clone a repo into a new directory called foo):
+
+
+#### MAKE CHANGES: (Review edits and craf a commit transaction)
+- `$ git status` (Lists all new/modified files to be commited)
+- `$ git add [file]` (Snapshots file in preparation for versioning)
+- `$ git reset [file]`(Unstages file, preserve its contents)
+- `$ git diff`(Shows file differences, not yet staged)
+- `$ git diff --staged`(Shows file differences, between staging - last file version)
+- `$ git commit -m "[descriptive message]"`(Records file snapshots permanently in version history)
 
 
 ## TROUBLE SHOOTING
