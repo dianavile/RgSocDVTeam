@@ -5,11 +5,6 @@ _"Git is hard: screwing up is easy, and figuring out how to fix your mistakes is
 ## Basic Git Commands (see [Git Cheatsheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf))
 Common git commands in day-to-day workflow
 
-#### CONFIGURE TOOLING: (Configure user information for all local repositories)
-- `$ git config --global user.name "[name]"`(Sets the name you want atached to your commit transactions)
-- `$ git config --global user.email "[email address]"`(Sets the email you want atached to your commit transactions)
-- `$ git config --global color.ui auto` (Enables helpful colorization of command line output)
-
 #### CREATE REPO: (Start new repository/Obtain one from an existing URL)
 -  `$ git init`(Create an empty git repo/reinitialize an existing one)
 -  `$ git init [project-name]` (Create new local repository with specified name)
@@ -18,7 +13,10 @@ Common git commands in day-to-day workflow
 Click the `"Fork"` button at the top-right of any repository's GitHub page.
 #### CLONE A REPO 
 -  `$ git clone https://github.com/<username>/foo.git foo`(Clone a repo into a new directory called foo):
-
+#### SETUP REMOTES:
+-  `$ git remote -v` (see list of repositories (remotes) whose branches you track)
+- `$ git remote add upstream https://github.com/<upstream_username>/<repo_name>.git` (setup upstream)
+- `$ git fetch upstream` (setup upstream)
 
 #### MAKE CHANGES: (Review edits and craf a commit transaction)
 - `$ git status` (Lists all new/modified files to be commited)
