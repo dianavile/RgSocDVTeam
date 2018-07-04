@@ -5,17 +5,22 @@ _"Git is hard: screwing up is easy, and figuring out how to fix your mistakes is
 ## Basic Git Commands
 - [Git Cheatsheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 
+#### CREATE REPOSITORIES: 
+- Start a new repository or obtain one from an existing URL: `$ git init [project-name]`
+- Creates a new local repository with the specified name: `$ git clone [url]`
+- Downloads a project and its entire version history
+
 ## TROUBLE SHOOTING
 __list all git steps__ (`index HEAD@{index}`):
 `git reflog`
-### find __last git step before it breaks__:
+##### find __last git step before it breaks__:
 `git reset HEAD@{index}`
-### make change
+##### make change
 `git add . #` or add individual files
-### change or keep commit 
+##### change or keep commit 
 `git commit --amend`
 - Last commit contains change
-### create new branch from current state/master
+##### create new branch from current state/master
 `git branch some-new-branch-name`
 ### remove commit from master branch
 - `git reset HEAD~ --hard`
