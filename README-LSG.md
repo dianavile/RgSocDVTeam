@@ -77,6 +77,10 @@ Please read [CONTRIBUTING.md]() for details on our code of conduct, and the proc
 
 ## Authors
 - * Copyright 2018++ -[Nico Hagenburger](https://www.hagenburger.net).
+- Get in touch with [@hagenburger](https://twitter.com/hagenburger) on Twitter or
+- [open an issue](https://github.com/hagenburger/pimd/issues/new).
+
+## Contributors
 - [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
