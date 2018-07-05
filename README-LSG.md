@@ -1,5 +1,6 @@
 # README Living Style Guide
 - What the project is about? (short project description)
+- Why does this project exist? (short motivation)
 
 ## Getting Started
 - Instructions to get copy of the project
@@ -28,6 +29,15 @@ End with Example of
 - getting some data out of the system 
 - using data for a little demo
 
+## Screenshots
+Include logo/demo screenshot etc.
+
+## Build status
+- What is the build status of continus integration?
+
+##  Code style
+- Which code styles are used for this project?
+
 ## Running the tests
 - Explain how to run the automated tests for this system
 
@@ -46,7 +56,8 @@ Give an example
 Add additional notes about how to deploy this on a live system
 
 ## Code Dependencies 
-This ... is built with the following dependencies: 
+This ... is __built with__ the following dependencies (tech/frameworks): 
+
 * []() - 
 * []() -
 * []() - 
