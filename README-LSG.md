@@ -1,9 +1,7 @@
 # README Living Style Guide
 - What the project is about? (short project description)
 - Why does this project exist? (short motivation)
-
-# Features
-- What makes your project stand out?
+- What makes your project stand out? (features)
 
 ## Getting Started
 - Instructions to get copy of the project
@@ -16,7 +14,10 @@
 Give examples
 ```
 # Code Example
-Show what the library does as concisely as possible, developers should be able to figure out how your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+- Show what the library does.
+- How does your project solve developers problem (see: code example).
+- Show an obvious API
+- Make code short and concise.
 
 ### Installation
 - How to get development environment running?
@@ -44,9 +45,8 @@ Include logo/demo screenshot etc.
 ##  Code style
 - Which code styles are used for this project?
 
-## Running the tests
+## Testing
 - Explain how to run the automated tests for this system
-
 ### End-to-end-tests
 - Explain what these tests test and why
 ```
@@ -60,6 +60,9 @@ Give an example
 ## Deployment
 Add additional notes about how to deploy this on a live system
 
+How to use?
+If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
+
 ## Code Dependencies 
 This ... is __built with__ the following dependencies (tech/frameworks): 
 
@@ -69,9 +72,6 @@ This ... is __built with__ the following dependencies (tech/frameworks):
 
 ## Contributing
 Please read [CONTRIBUTING.md]() for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-We use []() for versioning. 
 
 ## Authors
 * **Name** - *Initial work* - [](URL)
