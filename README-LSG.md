@@ -37,13 +37,15 @@ End with Example of
 - using data for a little demo
 
 ## Screenshots
-Include logo/demo screenshot etc.
+Include logo/demo screenshot.
+
 
 ## Build status
 - What is the build status of continus integration?
 
 ##  Code style
 - Which code styles are used for this project?
+- PIMD uses the [StandardJS](https://standardjs.com) style.
 
 ## Testing
 - Explain how to run the automated tests for this system
@@ -74,11 +76,11 @@ This ... is __built with__ the following dependencies (tech/frameworks):
 Please read [CONTRIBUTING.md]() for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Authors
-* **Name** - *Initial work* - [](URL)
+- * Copyright 2018++ -[Nico Hagenburger](https://www.hagenburger.net).
 - [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License. See [MIT-LICENSE](LICENSE.md) for details.
 
 ## Acknowledgments
 * Hat tip to anyone whose code was used
