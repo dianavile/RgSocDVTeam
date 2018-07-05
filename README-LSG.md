@@ -1,5 +1,5 @@
 # README Living Style Guide
-project description
+- What the project is about? (short project description)
 
 ## Getting Started
 - Instructions to get copy of the project
@@ -11,7 +11,6 @@ project description
 ```
 Give examples
 ```
-
 ### Installation
 - How to get development environment running?
 - step-by-step series of examples (descriptions, how to install, step by step)
