@@ -2,6 +2,9 @@
 - What the project is about? (short project description)
 - Why does this project exist? (short motivation)
 
+# Features
+- What makes your project stand out?
+
 ## Getting Started
 - Instructions to get copy of the project
 - Instructions to run project on local machine (for development and testing)
@@ -12,6 +15,9 @@
 ```
 Give examples
 ```
+# Code Example
+Show what the library does as concisely as possible, developers should be able to figure out how your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+
 ### Installation
 - How to get development environment running?
 - step-by-step series of examples (descriptions, how to install, step by step)
@@ -51,7 +57,6 @@ Give an example
 ```
 Give an example
 ```
-
 ## Deployment
 Add additional notes about how to deploy this on a live system
 
