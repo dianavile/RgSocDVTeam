@@ -4,10 +4,9 @@ project description
 ## Getting Started
 - Instructions to get copy of the project
 - Instructions to run project on local machine (for development and testing)
-(See deployment for notes on how to deploy the project on a live system.)
 
 ### Prerequisites
-- What is needed to install the software
+- What is needed to install the software?
 - How to install it?
 ```
 Give examples
@@ -15,7 +14,7 @@ Give examples
 
 ### Installation
 - How to get development environment running?
-- step-by-step series of examples
+- step-by-step series of examples (descriptions, how to install, step by step)
 Step 1
 
 ```
