@@ -13,7 +13,7 @@ project description
 Give examples
 ```
 
-### Installing
+### Installation
 - How to get development environment running?
 - step-by-step series of examples
 Step 1
@@ -58,7 +58,6 @@ Please read [CONTRIBUTING.md]() for details on our code of conduct, and the proc
 
 ## Versioning
 We use []() for versioning. 
-
 
 ## Authors
 * **Name** - *Initial work* - [](URL)
