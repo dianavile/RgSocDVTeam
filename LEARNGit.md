@@ -34,6 +34,18 @@ Click the `"Fork"` button at the top-right of any repository's GitHub page.
 - `git checkout master` OR  `git reset HEAD~ --hard` (delete from master)
 - `git diff --staged` (Git won't do a diff of files add to staging area without this flag.)
 
+- `npm install`
+- `npm start`
+- `ls`= lists directories & files inside a folder.
+in chrome put http://localhost:3000
+- `npm run build`= create production build
+- `cd` stands for change directory
+ex: `cd src` find within this path a src directory and move inside of it
+- `./` = same directory where file which is importing resides
+ex: go to `./` directory and find me  `X.js` file
+- `git checkout -b development` =move into/create development branch
+- `git checkout master`= merge to master 
+
 # Resources
 - [Github](https://try.github.io/)
 - [GitHub Branching](https://learngitbranching.js.org/)
