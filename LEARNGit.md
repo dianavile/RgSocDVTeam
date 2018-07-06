@@ -38,6 +38,7 @@ Click the `"Fork"` button at the top-right of any repository's GitHub page.
 - [Github](https://try.github.io/)
 - [GitHub Branching](https://learngitbranching.js.org/)
 - [Atlassian-Git](https://www.atlassian.com/git/tutorials)
+- [Git Branching Basic Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
 - [Tower](https://www.git-tower.com/learn/)
 - [OshitGit](http://ohshitgit.com/)
 - [Learn Enough](https://www.learnenough.com/git-tutorial)
