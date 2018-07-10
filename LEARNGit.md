@@ -4,6 +4,11 @@ _"Git is hard: screwing up is easy, and figuring out how to fix your mistakes is
 
 ## Basic Git Commands (see [Git Cheatsheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf))
 Common git commands in day-to-day workflow
+
+1) Set up the __origin folder__ (on local computer) and watch the files.
+2) Compare changes `diff` command and commit to github.
+- [GitHub Changes to Folder](https://gist.github.com/Chaser324/ce0505fbed06b947d962)
+
 #### CREATE REPO: (Start new repository/Obtain one from an existing URL)
 -  `$ git init`(Create an empty git repo/reinitialize an existing one)
 -  `$ git init [project-name]` (Create new local repository with specified name)
