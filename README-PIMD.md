@@ -1,10 +1,11 @@
-# README Living Style Guide
-['Living Style Guide'](https://speakerdeck.com/hagenburger/style-guide-driven-development) is `an important tool for modern web development, especially in large, complex web applications.` The `dynamic pattern library` document lives directly in the core Application (__API__) and details all elements, styles and coded modules of a site or application. 
+# README PIMD
+['Living Style Guide'](https://speakerdeck.com/hagenburger/style-guide-driven-development) is `an important tool for modern web development, especially in large, complex web applications.`
 
 ## Project Description: 
-
+ The `dynamic pattern library` document lives directly in the core Application (__API__) and details all elements, styles and coded modules of a site or application. 
+ 
 ## **Table of Contents**
-- [Benefits LivingStyleGuide](#benefits)
+- [Living Style Guide Project](#project)
 - [Getting Started](#getting-started)
 - [Prerequisites](#Prerequisites)
 - [Code Example](#code-example)
@@ -17,23 +18,20 @@
 - [License](#licence)
 - [Articles](#user-content-articles)
 
-#### Benefits LivingStyleGuide
+#### Living STyle Guide Project 
 - `Style guide driven design` help: 
 - 1) __Document the visual language styles and patterns__ (header styles, color pallettes)
 - 2) __keep designers and developers in sync__, 
 - 3) the entire team to __organize and distill changes in complex interfaces__.
 
-Living Style Guide as __dynamic library DOC in an API__ is: 
-1) __independent:__  It comes with specified templates per action. 
-Each template contains: `HTML`, `CSS`, `Examples`, `Test cases`, `References`and `Screenshots`. 
-
+[Living Style Guide](https://livingstyleguide.org/) as an __dynamic library DOC in an API__ is: 
+1) __independent:__  
+- It comes with specified templates per action. Each template contains: `HTML`, `CSS`, `Examples`, `Test cases`,`References`and `Screenshots`. 
 2) __easy to use:__ 
 - It _standardize the CSS_, with consistent names of modules, keeping the codebase small and quick to load.
-
 3) __maintainable:__ 
 - It maintains _design consistency_ troughout the production process. 
 - The designer can look in one place to reference the site’s components and ensure a cohesive look and feel throughout. 
-
 4) It is __testable__
 
 ## Getting Started
@@ -71,7 +69,6 @@ End with Example of
 
 ## Screenshots
 Include logo/demo screenshot.
-
 
 ## Build status
 - What is the build status of continuos integration?
@@ -196,7 +193,7 @@ How to use?
 If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
 
 ## Code Dependencies 
-[Living Style Guide](http://www.livingstyleguide.org) is built with the dependencies listed below.
+[Living Style Guide](http://www.livingstyleguide.org) is built with the dependencies listed below:
 
 #### [LERNA](https://github.com/lerna/lerna)
 Splitting up large codebases into separate independently versioned packages is extremely useful for code sharing. However, making changes across many repositories is messy and difficult to track, and testing across repositories gets complicated really fast.
@@ -230,20 +227,13 @@ ESLint is a tool for identifying and reporting on patterns found in ECMAScript/J
 * ESLint is completely pluggable, every single rule is a plugin and you can add more at runtime.
 
 ## Contributing
-Please read [CONTRIBUTING.md]() for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Authors
-- Copyright 2018++ -[Nico Hagenburger](https://www.hagenburger.net).
-- Get in touch with [@hagenburger](https://twitter.com/hagenburger) on Twitter or [open an issue](https://github.com/hagenburger/pimd/issues/new).
-
-## Contributors
-- [contributors](https://github.com/your/project/contributors) who participated in this project.
+Please read [CONTRIBUTING.md](https://github.com/your/project/contributors) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## License
 This project is licensed under the MIT License. See [MIT-LICENSE](LICENSE.md) for details.
 
 ## Acknowledgments
-Copyright 2018++ [Nico Hagenburger](https://github.com/hagenburger/). See MIT-LICENSE for details. Get in touch with @hagenburger on Twitter or open an issue.
+Copyright 2018++ [Nico Hagenburger](https://github.com/hagenburger/). See MIT-LICENSE for details. Get in touch with [@hagenburger](https://twitter.com/hagenburger) on Twitter or [open an issue](https://github.com/hagenburger/pimd/issues/new).
 
 * [ArtNerdNet](http://www.github.com/artnerdnet)
 * [Diana Vilé](http://www.github.com/dianaviale)
