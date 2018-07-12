@@ -35,17 +35,33 @@
 - 3) the entire team to __organize and distill changes in complex interfaces__.
 
 ## Getting Started
-- Instructions to get copy of the project
-- Instructions to run project on local machine (for development and testing)
+To get copy of the project:
+
+1) Go to [PIMP Repository](https://github.com/hagenburger/pimd)
+2) Choose `Download ZIP` to download the zip file of the folder & store the folder on your local computer. 
+3) OR `clone` the project with `Clone with HTTPS`, click on [URL](https://github.com/hagenburger/pimd.git)
+
+- Instructions to run project on local machine (for development and testing):
+
+1) Click (right mouse click) to folder `PIMD-master` on your local computer.
+2) Choose Open with `GitGui` (OR `GitBash?` here.
+HOW TO CONTINUE FURTHER?
+
+````
+$ mkdir pimd-master
+$ cd pimd-master
+$ git init 
+````
 
 ### Prerequisites
-- To install the software, the following prerequisites npm packages are needed to install: 
+To install the software, the following prerequisites npm packages are needed to install: 
 
 - [Lerna](https://www.npmjs.com/package/lerna)
 - [Markdown-It](https://www.npmjs.com/package/markdown-it)
 - [JSDOM](https://www.npmjs.com/package/jsdom)
 - [Linter](https://www.npmjs.com/package/linter)
 
+## Installation
 - To install these packages:  
 
 #### [Lerna](https://www.npmjs.com/package/lerna)
@@ -55,7 +71,6 @@ Package is available through npm:
 ```
 npm i lerna
 ```
-## Installation
 1) Install Lerna globally on local computer. 
 ````
 $ npm install --global lerna
@@ -76,9 +91,16 @@ lerna-repo/
   package.json
   lerna.json
 ````
+
+#### [MARKDOWN IT](https://github.com/markdown-it/markdown-it)
+Markdown parser done right. Fast and easy to extend.
+
+#### [JSDOM](https://github.com/jsdom/jsdom)
+jsdom is a pure-JavaScript implementation of many web standards, notably the WHATWG DOM and HTML Standards, for use with Node.js. In general, the goal of the project is to emulate enough of a subset of a web browser to be useful for testing and scraping real-world web applications. The latest versions of jsdom require Node.js v6 or newer. (Versions of jsdom below v10 still work with Node.js v4, but are unsupported.) As of v10, jsdom has a new API (documented below). The old API is still supported for now; see its documentation for details.
+Package is available through npm:
+
 - [Linter](https://www.npmjs.com/package/linter)
-- [JSDOM](https://www.npmjs.com/package/jsdom)
-- [Markdown-It](https://www.npmjs.com/package/markdown-it)
+
 
 # Code Example
 - Show what the library does.
@@ -274,6 +296,6 @@ Copyright 2018++ [Nico Hagenburger](https://github.com/hagenburger/). See MIT-LI
 * [ArtNerdNet](http://www.github.com/artnerdnet)
 * [Diana Vilé](http://www.github.com/dianaviale)
 
-## Articles (#user-content-articles)
+## Articles 
 - [StyleGuides](http://styleguides.io/).
 - [Creating Style Guides- A List Apart article](http://alistapart.com/article/creating-style-guides).
