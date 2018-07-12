@@ -3,7 +3,8 @@
 
 ## Project Description: 
 The `dynamic pattern library` document lives directly in the core Application (__API__).
-It details all the various elements, styles and coded modules of a site or application. Whereas, maintaining a _static_ Pattern Library (traditional style guide in HTML/CSS) is errorprone and hard work. 
+It details all elements, styles and coded modules of a site or application. 
+Whereas, maintaining a _static_ Pattern Library (traditional style guide in HTML/CSS) is errorprone and hard work. 
 - `Style guide driven design` help: 
 
 - 1) __Document the visual language styles and patterns__ (header styles, color pallettes)
