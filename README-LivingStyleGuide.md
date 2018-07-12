@@ -49,8 +49,7 @@
 - To install these packages:  
 
 #### [Lerna](https://www.npmjs.com/package/lerna)
-Lerna __optimizes the workflow around managing multi-package repositories with git and npm.__ It splits up large codebases into separate independently versioned packages is extremely useful for code sharing. To solve problems, such as messy changes in many respositories, that are difficult to track and get testing across repositories complicated. It adds multi-package repositories into one single repository. And reduce the time and space requirements for numerous copies of packages in development and build environments. 
-
+Lerna __optimizes the workflow around managing multi-package repositories with git and npm.__ It splits up large codebases into separate independently versioned packages is extremely useful for code sharing. 
 Package is available through npm:
 
 ```
