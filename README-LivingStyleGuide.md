@@ -2,7 +2,7 @@
 ['Living Style Guide'](https://speakerdeck.com/hagenburger/style-guide-driven-development) is `an important tool for modern web development, especially in large, complex web applications.` 
 
 ## Project Description: 
-The __dynamic pattern library__, document lives directly in the core Application (__API__).
+The `dynamic pattern library` document lives directly in the core Application (__API__).
 It details all the various elements, styles and coded modules of a site or application. Whereas, maintaining a _static_ Pattern Library (traditional style guide in HTML/CSS) is errorprone and hard work. 
 - `Style guide driven design` help: 
 
