@@ -1,17 +1,13 @@
 # README Living Style Guide
-['Living Style Guide'](https://speakerdeck.com/hagenburger/style-guide-driven-development) is `an important tool for modern web development, especially in large, complex web applications.` It bridges the gap between design and development. 
+['Living Style Guide'](https://speakerdeck.com/hagenburger/style-guide-driven-development) is `an important tool for modern web development, especially in large, complex web applications.`. The __dynamic pattern library__, document lives directly in the core Application (__API__) and bridges the gap between design and development. 
 
 ## Project Description: 
-`Style guide driven design` helps: 
+- The online code document ( __dynamic pattern library__) in developing websites, details all the various elements, styles and coded modules of a site or application. 
+- `Style guide driven design` helps: 
 
 - 1) __Document the visual language styles and patterns__ (header styles, color pallettes)
-- 2) which consolidate the front-end code to __keep designers and developers in sync__, 
-- 3) help to __organize and distill complex interfaces__.
-
-it’s a one-stop place for the entire team—from product owners and producers to designers and developers—to reference when discussing site changes and iterations. 
-
-The __dynamic pattern library__, document lives directly in the API (core Application). 
-- The online code document ( __dynamic pattern library__) in developing websites, details all the various elements, styles and coded modules of a site or application. 
+- 2) __keep designers and developers in sync__, 
+- 3) helps the entire team to __organize and distill changes in complex interfaces__.
 
 ## **Table of Contents**
 - [Benefits LivingStyleGuide](#benefits)
@@ -28,13 +24,12 @@ The __dynamic pattern library__, document lives directly in the API (core Applic
 - [Articles](#user-content-articles)
 
 #### Benefits LivingStyleGuide
-1) It is __easy scalable and up-to-date__.
+Living Style Guid as DOC in an API is: 
+1) __independent:__ specified templates per action.
 Whereas, maintaining a _static_ Pattern Library (traditional style guide in HTML/CSS) is errorprone and hard work. 
-2) It allows to __standardize the CSS__, keeping the codebase small and quick to load.
-3) It maintains __design consistency__ troughout the production process.
-The designer can look in one place to reference the site’s components and ensure a cohesive look and feel throughout. 
-4) It improves __clear communication__ (consisten names of modules) between designers, developers and product managers.
-5) It is testable.
+2) __easy to use:__ It __standardize the CSS__, with consistent names of modules, keeping the codebase small and quick to load.
+3) __maintainable:__ It maintains __design consistency__ troughout the production process. The designer can look in one place to reference the site’s components and ensure a cohesive look and feel throughout. 
+4) It is __testable__
 
 ## Getting Started
 - Instructions to get copy of the project
