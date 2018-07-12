@@ -18,13 +18,8 @@
 - [License](#licence)
 - [Articles](#user-content-articles)
 
-#### Living STyle Guide Project 
-- `Style guide driven design` help: 
-- 1) __Document the visual language styles and patterns__ (header styles, color pallettes)
-- 2) __keep designers and developers in sync__, 
-- 3) the entire team to __organize and distill changes in complex interfaces__.
-
-[Living Style Guide](https://livingstyleguide.org/) as an __dynamic library DOC in an API__ is: 
+#### Living Style Guide Project 
+[Living Style Guide](https://livingstyleguide.org/) is an __dynamic library DOC in an API__. It is: 
 1) __independent:__  
 - It comes with specified templates per action. Each template contains: `HTML`, `CSS`, `Examples`, `Test cases`,`References`and `Screenshots`. 
 2) __easy to use:__ 
@@ -34,16 +29,58 @@
 - The designer can look in one place to reference the site’s components and ensure a cohesive look and feel throughout. 
 4) It is __testable__
 
+- `Style guide driven design` help: 
+- 1) __Document the visual language styles and patterns__ (header styles, color pallettes)
+- 2) __keep designers and developers in sync__, 
+- 3) the entire team to __organize and distill changes in complex interfaces__.
+
 ## Getting Started
 - Instructions to get copy of the project
 - Instructions to run project on local machine (for development and testing)
 
 ### Prerequisites
-- What is needed to install the software?
-- How to install it?
+- To install the software, the following prerequisites npm packages are needed to install: 
+
+- [Lerna](https://www.npmjs.com/package/lerna)
+- [Markdown-It](https://www.npmjs.com/package/markdown-it)
+- [JSDOM](https://www.npmjs.com/package/jsdom)
+- [Linter](https://www.npmjs.com/package/linter)
+
+- To install these packages:  
+
+#### [Lerna](https://www.npmjs.com/package/lerna)
+Lerna __optimizes the workflow around managing multi-package repositories with git and npm.__ It splits up large codebases into separate independently versioned packages is extremely useful for code sharing. To solve problems, such as messy changes in many respositories, that are difficult to track and get testing across repositories complicated. It adds multi-package repositories into one single repository. And reduce the time and space requirements for numerous copies of packages in development and build environments. 
+
+Package is available through npm:
+
 ```
-Give examples
+npm i lerna
 ```
+## Installation
+1) Install Lerna globally on local computer. 
+````
+$ npm install --global lerna
+````
+2) Create new folder
+````
+$ mkdir lerna-repo
+$ cd lerna-repo
+````
+3) Turn folder into a Lerna repo
+````
+$ lerna init
+````
+This will create a `lerna.json configuration file` and a packages folder, so your folder should now look like this:
+````
+lerna-repo/
+  packages/
+  package.json
+  lerna.json
+````
+- [Linter](https://www.npmjs.com/package/linter)
+- [JSDOM](https://www.npmjs.com/package/jsdom)
+- [Markdown-It](https://www.npmjs.com/package/markdown-it)
+
 # Code Example
 - Show what the library does.
 - How does your project solve developers problem (see: code example).
