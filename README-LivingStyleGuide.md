@@ -1,4 +1,4 @@
-# README PIMD
+# README Living Style Guide
 ['Living Style Guide'](https://speakerdeck.com/hagenburger/style-guide-driven-development) is `an important tool for modern web development, especially in large, complex web applications.`
 
 ## Project Description: 
