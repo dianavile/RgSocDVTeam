@@ -5,13 +5,17 @@ Resources, Learnings, Courses, Testing, Meetings- all in one in Markdown.
 - [TODO APP](https://railsgirlsvd.workast.io/list/5b3caacf722b3652e2c3b232)
 - [Calender RgSoC](https://calendar.google.com/calendar/b/3/r/month/2018/7/1)
 
-## __WEEKLY MEETINGS:__
+## WEEKLY MEETINGS:
 - __Tuesday/Friday (18.30-20-30PM)__: Meeting with Coach(Christina), DVTeam(Violeta & Diana).
 - [Meetings- Coaches]()
 - __Thursday: (17.30-18.30PM)__: Call with Supervisor (Lucas), DVTeam(Violeta & Diana).
 - [Meetings- Supervisor]()
 
-#### RESOURCES
-#### COURSES/LEARNINGS
-#### TESTING
+#### RESOURCES:
+- GIT
+- VERSION CONTROL
+- COMMON MARK
+
+#### COURSES/LEARNINGS:
+#### TESTING:
 
