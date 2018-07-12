@@ -1,4 +1,4 @@
-# README Living Style Guide
+# README NAME OF PROJECT
 - What the project is about? (short project description)
 - Why does this project exist? (short motivation)
 - What makes your project stand out? (features)
