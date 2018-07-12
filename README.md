@@ -7,9 +7,9 @@ Resources, Learnings, Courses, Testing, Meetings- all in one in Markdown.
 
 ## WEEKLY MEETINGS:
 - __Tuesday/Friday (18.30-20-30PM)__: Meeting with Coach(Christina), DVTeam(Violeta & Diana).
-- [Meetings- Coaches]()
+- Meetings- Coaches
 - __Thursday: (17.30-18.30PM)__: Call with Supervisor (Lucas), DVTeam(Violeta & Diana).
-- [Meetings- Supervisor]()
+- Meetings- Supervisor
 
 #### RESOURCES:
 - [GIT guides](https://guides.github.com/)
