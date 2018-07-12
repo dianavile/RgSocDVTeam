@@ -12,9 +12,9 @@ Resources, Learnings, Courses, Testing, Meetings- all in one in Markdown.
 - [Meetings- Supervisor]()
 
 #### RESOURCES:
-- GIT
-- VERSION CONTROL
-- COMMON MARK
+- [GIT & VERSION CONTROL](https://www.atlassian.com/git/tutorials)
+- [COMMON MARK](http://commonmark.org/help/tutorial/)
+- [LIVING STYLE GUIDE](https://livingstyleguide.org/)
 
 #### COURSES/LEARNINGS:
 #### TESTING:
