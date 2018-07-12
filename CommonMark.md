@@ -11,8 +11,8 @@ Markdown is
 - By 2014 there were dozens of implementations in many languages.
 
 ### Why Common Mark is needed?
-- Markdown lacks unambiguous syntax specification.
-_ Markdown lacks a compresensive Test suite.
+- Markdown lacks _unambiguous syntax specification_.
+- Markdown lacks a _compresensive Test suite_.
 
 ### Resources
 - [Common Mark Tutorial](http://commonmark.org/help/tutorial/)
