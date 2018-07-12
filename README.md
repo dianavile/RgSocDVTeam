@@ -12,8 +12,10 @@ Resources, Learnings, Courses, Testing, Meetings- all in one in Markdown.
 - [Meetings- Supervisor]()
 
 #### RESOURCES:
-- [GIT & VERSION CONTROL](https://www.atlassian.com/git/tutorials)
+- [GIT guides](https://guides.github.com/)
+- [VERSION CONTROL](https://www.atlassian.com/git/tutorials)
 - [COMMON MARK](http://commonmark.org/help/tutorial/)
+- [README](https://help.github.com/articles/basic-writing-and-formatting-syntax/,https://guides.github.com/features/wikis/)
 - [LIVING STYLE GUIDE](https://livingstyleguide.org/)
 
 #### COURSES/LEARNINGS:
