@@ -20,12 +20,9 @@
 
 #### Living Style Guide Project 
 [Living Style Guide](https://livingstyleguide.org/) is an __dynamic library DOC in an API__. It is: 
-1) __independent:__  
-- It comes with specified templates per action. Each template contains: `HTML`, `CSS`, `Examples`, `Test cases`,`References`and `Screenshots`. 
-2) __easy to use:__ 
-- It _standardize the CSS_, with consistent names of modules, keeping the codebase small and quick to load.
-3) __maintainable:__ 
-- It maintains _design consistency_ troughout the production process. 
+1) __independent:__ It comes with specified templates per action. Each template contains: `HTML`, `CSS`, `Examples`, `Test cases`,`References`and `Screenshots`. 
+2) __easy to use:__ It _standardize the CSS_, with consistent names of modules, keeping the codebase small and quick to load.
+3) __maintainable:__ It maintains _design consistency_ troughout the production process. 
 - The designer can look in one place to reference the site’s components and ensure a cohesive look and feel throughout. 
 4) It is __testable__
 
@@ -35,26 +32,32 @@
 - 3) the entire team to __organize and distill changes in complex interfaces__.
 
 ## Getting Started
-To get copy of the project:
-
-1) Go to [PIMP Repository](https://github.com/hagenburger/pimd)
-2) Choose `Download ZIP` to download the zip file of the folder & store the folder on your local computer. 
-3) OR `clone` the project with `Clone with HTTPS`, click on [URL](https://github.com/hagenburger/pimd.git)
-
 - Instructions to run project on local machine (for development and testing):
 
-1) Click (right mouse click) to folder `PIMD-master` on your local computer.
-2) Choose Open with `GitGui` (OR `GitBash?` here.
-HOW TO CONTINUE FURTHER?
+## STEP 1: Create DEV folder in USER on Local Computer
+__NOTE:__ Always work from ‘dev’ folder, not ‘Documents’ /‘Downloads’.
+### In Terminal 
+1) Go to user folder: `$ cd username` 
+2) Go to dev folder in User: `$ mkdir dev` &  `$ cd dev` 
 
-````
-$ mkdir pimd-master
-$ cd pimd-master
-$ git init 
-````
+## STEP 2: Copy or clone the repository
+- To get copy of the project:
+### OPTION A: Download the folder 
+To download the folder into your local computer:
+1) Go to [PIMP Repository](https://github.com/hagenburger/pimd)
+2) Choose `Download ZIP` to download the zip file of the folder & store the folder on your local computer.
+### OPTION B: Clone the project via HTTPS or SSH
+To clone the folder into your local computer:
+__NOTE:__ you can `Clone with HTTPS`, or via SSH. 
+3) __VIA HTTPS:__ Create a copy of the project in dev folder on local computer: `git clone URL` 
+=`$ git clone https://github.com/hagenburger/pimd-master.git`
+4) __VIA SSH:__
+= `$ git@github.com:hagenburger/pimd.git`
+Now the remote repository is inside your local computer.
 
-### Prerequisites
-To install the software, the following prerequisites npm packages are needed to install: 
+## Step 3: Dependencies
+Before you can start with project development, you first need to install the software dependencies.
+The following prerequisites `npm packages` (the code dependencies and test depencies via npm package) are needed to install: 
 
 - [Lerna](https://www.npmjs.com/package/lerna)
 - [Markdown-It](https://www.npmjs.com/package/markdown-it)
@@ -67,7 +70,6 @@ To install the software, the following prerequisites npm packages are needed to 
 #### [Lerna](https://www.npmjs.com/package/lerna)
 Lerna __optimizes the workflow around managing multi-package repositories with git and npm.__ It splits up large codebases into separate independently versioned packages is extremely useful for code sharing. 
 Package is available through npm:
-
 ```
 npm i lerna
 ```
@@ -91,9 +93,32 @@ lerna-repo/
   package.json
   lerna.json
 ````
-
 #### [MARKDOWN IT](https://github.com/markdown-it/markdown-it)
 Markdown parser done right. Fast and easy to extend.
+Download package via (https://www.npmjs.com/package/markdown-it)
+```
+npm i markdown-it
+```
+1) Install Markdown on local computer. 
+````
+$ npm install --global markdown-it
+````
+2) Create new folder
+````
+$ mkdir markdown-it
+$ cd markdown-it
+````
+3) Turn folder into a Markdown it
+````
+$ Markdown-it init
+````
+This will create a `markdown-it.json configuration file` and a packages folder, so your folder should now look like this:
+````
+markdown-it/
+  packages/
+  package.json
+  markdown-it.json
+````
 
 #### [JSDOM](https://github.com/jsdom/jsdom)
 jsdom is a pure-JavaScript implementation of many web standards, notably the WHATWG DOM and HTML Standards, for use with Node.js. In general, the goal of the project is to emulate enough of a subset of a web browser to be useful for testing and scraping real-world web applications. The latest versions of jsdom require Node.js v6 or newer. (Versions of jsdom below v10 still work with Node.js v4, but are unsupported.) As of v10, jsdom has a new API (documented below). The old API is still supported for now; see its documentation for details.
@@ -101,38 +126,8 @@ Package is available through npm:
 
 - [Linter](https://www.npmjs.com/package/linter)
 
-
-# Code Example
-- Show what the library does.
-- How does your project solve developers problem (see: code example).
-- Show an obvious API
-- Make code short and concise.
-
-### Installation
-- How to get development environment running?
-- step-by-step series of examples (descriptions, how to install, step by step)
-Step 1
-
-```
-Give the example
-```
-Repeat
-
-```
-until finished
-```
-End with Example of 
-- getting some data out of the system 
-- using data for a little demo
-
-## Screenshots
-Include logo/demo screenshot.
-
-## Build status
-- What is the build status of continuos integration?
-
-##  Code style
-Living Style Guide uses the [StandardJS](https://standardjs.com) style and [Common Mark](http://commonmark.org) for markdown.
+After all code dependencies are installed, do not forget to install the testing dependencies first.
+After that, you can start.
 
 ## Testing
 
@@ -244,6 +239,30 @@ Give an example
 ```
 Give an example
 ```
+## Development
+### In Editor
+1) Click (right mouse click) to folder `PIMD-master` on your local computer.
+2) Choose Open with Terminal `GitGui` `GitBash` 
+````
+$ mkdir pimd-master
+$ cd pimd-master
+$ git init 
+````
+
+# Code Example
+- Show what the library does.
+- How does your project solve developers problem (see: code example).
+- Show an obvious API
+- Make code short and concise.
+
+## Screenshots
+Include logo/demo screenshot.
+
+## Build status
+- What is the build status of continuos integration?
+
+##  Code style
+Living Style Guide uses the [StandardJS](https://standardjs.com) style and [Common Mark](http://commonmark.org) for markdown.
 ## Deployment
 Add additional notes about how to deploy this on a live system
 
