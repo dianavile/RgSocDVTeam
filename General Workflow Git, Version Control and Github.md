@@ -1,5 +1,5 @@
 # Let´s get started
-We, Violeta Risueño and Diana Vilé, are involved in the Rails Girls Summer of Code scholarship as the DV Team since 2nd of July. We met each other in November 2017 during  the Udacity Front-end Web Developer (FEND) Nanodegree, for which we both received a full Google scholarship. This article shares our experiences and learnings of pair coding during the Rails Girls Summer of Code scholarship(july 2th- september 30th 2018). 
+We, V and Diana Vilé, are involved in the Rails Girls Summer of Code scholarship as the DV Team since 2nd of July. We met each other in November 2017 during  the Udacity Front-end Web Developer (FEND) Nanodegree, for which we both received a full Google scholarship. This article shares our experiences and learnings of pair coding during the Rails Girls Summer of Code scholarship(july 2th- september 30th 2018). 
 
 ## LEARNINGS: How to work in REMOTE (Git, Version Control and Github)
 ### LEARNING 1: KNOW YOUR BASICS
