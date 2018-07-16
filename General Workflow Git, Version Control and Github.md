@@ -22,11 +22,13 @@ It seems easy to learn a few commands to tell the computer what you want it to d
 ## GENERAL WORKFLOW in GIT, VERSION CONTROL AND GITHUB(STEP-BY-STEP):
 __IN TERMINAL- EDITOR:__
 
-1) Create new branch from the parent branch 
-2) Check if you are in the parent branch 
-3) Push new local branch to remote repository
+1) Create new branch from the parent branch: `git checkout -b feature/description`
+- __NOTE__: Be sure to always create a new child branch from the parent branche
+2) Check if you are in the parent branch:  `git branch` 
+- __NOTE__: `*name` of the parent branch (by default `master`) changes according to function.
+3) Push new local branch to remote repository: Make changes in your work in local code editor. Save changes in local file.
 4) Work on changes
-5) Add changes on local (that will be committed)
+5) Add changes on local (that will be committed): `PS C:\Users\name\folder\repository> git add .`
 6) Make a commit (snapshot - picture of current state of code)
 7) Push the changes (push local changes to remote repository)
 
@@ -43,22 +45,9 @@ __IN TERMINAL- EDITOR:__
 13) Add remote changes to local repository with `git pull`
 14) Delete local branch
 
-
-## TERMINAL in CODE EDITOR
-- Open Terminal in Local Code Editor
-
-### Step 1: Create new branch from the parent branch 
-- __NOTE__: Be sure to always create a new child branch from the parent branche
-- Switch to a new branch: `git checkout -b feature/description`
-- `PS C:\Users\name\folder\repository> git checkout -b feature/basic-info`
-
-### Step 2: Check if you are in the parent branch: 
- `git branch`
-- __NOTE__: `*name` of the parent branch (by default `master`) changes according to function.
-
 ### Step 3: Push new local branch to remote repository & Work on Local Changes
 __Make changes:__
-- Make changes in your work in local code editor. Save changes in local file.
+- 
 - 
 ### Step 4-5:  Work on Changes & Add Changes on Local 
 __Add changes:__
