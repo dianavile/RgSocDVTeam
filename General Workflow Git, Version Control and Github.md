@@ -19,7 +19,7 @@ It seems easy to learn a few commands to tell the computer what you want it to d
 -  To install new dependency packages: `$ npm install`
 - __NOTE__: npm notice create a lockfile as package-lock.json. This create a `node.js file`, in which all dependencies -as stated in JSON file- are stored. The file need to be committed.
 
-## GENERAL WORKFLOW (STEP-BY-STEP):
+## GENERAL WORKFLOW in GIT, VERSION CONTROL AND GITHUB(STEP-BY-STEP):
 __IN TERMINAL- EDITOR:__
 
 1) Create new branch from the parent branch 
