@@ -2,69 +2,58 @@
 ['Living Style Guide'](https://speakerdeck.com/hagenburger/style-guide-driven-development) is `an important tool for modern web development, especially in large, complex web applications.`
 
 ## Project Description: 
- The `dynamic pattern library` document lives directly in the core Application (__API__) and details all elements, styles and coded modules of a site or application. - `Style guide driven design` help: 
-- __Document the visual language styles and patterns__ (header styles, color pallettes)
-- __keep designers and developers in sync__, 
-- the entire team to __organize and distill changes in complex interfaces__.
- 
-## **Table of Contents**
-- [Living Style Guide Project](#project)
-- [Getting Started](#getting-started)
-- [Prerequisites](#Prerequisites)
-- [Code Example](#code-example)
-- [Installation](#installation)
-- [Screenshots](#screenshots)
-- [Build status](#build-status)
-- [Code style](#code-style)
-- [Testing](#testing)
-- [Acknowledgments](#Acknowledgments)
-- [License](#licence)
-- [Articles](#user-content-articles)
-
-#### Living Style Guide Project 
 [Living Style Guide](https://livingstyleguide.org/) is an __dynamic library DOC in an API__. 
-It is: 
+ The `dynamic pattern library` document lives directly in the core Application (__API__) and details all elements, styles and coded modules of a site or application. It is: 
 1) __independent__ 
 2) __easy to use__ 
 3) __maintainable__ 
 4) It is __testable__
 
-
 ## Getting Started
 - Instructions to run project on local machine (for development and testing):
 
-## STEP 1: Create DEV folder in USER on Local Computer
-__NOTE:__ Always work from ‘dev’ folder, not ‘Documents’ /‘Downloads’.
-### In Terminal 
-1) Go to user folder: `$ cd username` 
-2) Go to dev folder in User: `$ mkdir dev` &  `$ cd dev` 
-
-## STEP 2: Copy or clone the repository
+#### Get a local copy of repository
 - To get copy of the project:
-### OPTION A: Download the folder 
-To download the folder into your local computer:
-1) Go to [PIMP Repository](https://github.com/hagenburger/pimd)
-2) Choose `Download ZIP` to download the zip file of the folder & store the folder on your local computer.
-### OPTION B: Clone the project via HTTPS or SSH
-To clone the folder into your local computer:
-__NOTE:__ you can `Clone with HTTPS`, or via SSH. 
-3) __VIA HTTPS:__ Create a copy of the project in dev folder on local computer: `git clone URL` 
-=`$ git clone https://github.com/hagenburger/pimd-master.git`
-4) __VIA SSH:__
-= `$ git@github.com:hagenburger/pimd.git`
-Now the remote repository is inside your local computer.
 
-## Step 3: Dependencies
+###### Option 1: Use SSH
+```
+git clone git@github.com/hagenburger/pimd.git
+```
+###### Option 2: HTTPS
+```
+git clone https://github.com/hagenburger/pimd.git
+```
+###### Option 3: Download
+- Choose `Download` at [PIMP Repository](https://github.com/hagenburger/pimd) to download a zip file to your local computer.
+
+#### Run app
+Go to the root folder: 
+```
+cd pimd
+```
+#### Option 1: Install and Execute with Yarn
+Install with Yarn:  
+```
+yarn install
+yarn start
+```
+#### Option 2: Install and Execute with npm
+Install with npm:  
+```
+npm install
+npm start
+```
+
+## Install Dependencies
 Before you can start with project development, you first need to install the software dependencies.
 The following prerequisites `npm packages` (the code dependencies and test depencies via npm package) are needed to install: 
 
+- To install these packages:  
 - [Lerna](https://www.npmjs.com/package/lerna)
 - [Markdown-It](https://www.npmjs.com/package/markdown-it)
 - [JSDOM](https://www.npmjs.com/package/jsdom)
 - [Linter](https://www.npmjs.com/package/linter)
 
-## Installation
-- To install these packages:  
 
 #### [Lerna](https://www.npmjs.com/package/lerna)
 Lerna __optimizes the workflow around managing multi-package repositories with git and npm.__ It splits up large codebases into separate independently versioned packages is extremely useful for code sharing. 
@@ -72,9 +61,9 @@ Package is available through npm:
 ```
 npm i lerna
 ```
-1) Install Lerna globally on local computer. 
+1) Install Lerna on local computer. 
 ````
-$ npm install --global lerna
+$ npm install lerna
 ````
 2) Create new folder
 ````
@@ -100,7 +89,7 @@ npm i markdown-it
 ```
 1) Install Markdown on local computer. 
 ````
-$ npm install --global markdown-it
+$ npm install markdown-it
 ````
 2) Create new folder
 ````
@@ -143,6 +132,7 @@ To use a different reporter:
 
 $ REPORTER=nyan npm test
 ````
+
 
 ##### Getting started
 
