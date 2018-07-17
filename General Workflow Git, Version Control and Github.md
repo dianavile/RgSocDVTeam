@@ -18,14 +18,13 @@ The first day, we prepared ourselves reading the [@RailsGirlsSoC guidelines](htt
 #### Struggling to find a way 
 Shortly afterwards, we realized one thing: starting to code and do pair programming in remote isn´t easy:
 
-- We didn´t understand the code. Not even a tiny bit.
+- We didn´t understand the code. Not even a tiny bit. We realized we needed to learn a lot.
 - We [struggled to focus after a long working day](https://twitter.com/artnerdnet/status/1015567892081979393)
 - Our work schedules were completely the opposite. We needed to find a way to work together.
 - We realized we both had a different learning style. While @V moves quickly forward, Diana needed more time to stick with the basics.
 
 #### Pair programming
-We decided to let our coaches be the bridge between our tight schedules and different learning styles. While, Violeta´s attended her [first tech conference](https://twitter.com/artnerdnet/status/1015883042462818305), Diana tried to stick with the basics learning Git, Version Control and Github (see here learnings below).  
-Luckily we found a way to [Enjoying working even Friday night](https://twitter.com/artnerdnet/status/1017905655422881793).
+We decided to let our coaches be the bridge between our tight schedules and different learning styles. While, Violeta´s attended her [first tech conference](https://twitter.com/artnerdnet/status/1015883042462818305), Diana tried to stick with the basics learning Git, Version Control and Github (see here learnings below). While Diana is still catching up with Violeta´s speed, luckily we could communicate openly about it. Pair programming, especially almost fully remote, is hard, but even then still you can [Enjoy working even Friday night](https://twitter.com/artnerdnet/status/1017905655422881793).
 
 ### Lessons Learned 
 - PREPARATION IS KEY
