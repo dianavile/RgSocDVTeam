@@ -48,38 +48,9 @@ npm start
 ```
 The following code dependencies need to be installed via `npm packages`: 
 
-- [Lerna](https://www.npmjs.com/package/lerna)
 - [Markdown-It](https://www.npmjs.com/package/markdown-it)
 - [JSDOM](https://www.npmjs.com/package/jsdom)
-- [Linter](https://www.npmjs.com/package/linter)
 
-#### [Lerna](https://www.npmjs.com/package/lerna)
-Lerna __optimizes the workflow around managing multi-package repositories with git and npm.__ 
-It splits up large codebases into separate independently versioned packages is extremely useful for code sharing. 
-Package is available through npm:
-```
-npm i lerna
-```
-1) Install Lerna on local computer. 
-````
-$ npm install lerna
-````
-2) Create new folder
-````
-$ mkdir lerna-repo
-$ cd lerna-repo
-````
-3) Turn folder into a Lerna repo
-````
-$ lerna init
-````
-This will create a `lerna.json configuration file` and a packages folder, so your folder should now look like this:
-````
-lerna-repo/
-  packages/
-  package.json
-  lerna.json
-````
 #### [MARKDOWN IT](https://www.npmjs.com/package/markdown-it)
 Markdown parser done right. Fast and easy to extend.
 Package is available through npm:
@@ -133,6 +104,39 @@ jsdom/
   package.json
   jsdom.json
 ````
+
+## __STEP 4: Install DevDependencies__
+- [Linter](https://www.npmjs.com/package/linter)
+- [Lerna](https://www.npmjs.com/package/lerna)
+
+#### [Lerna](https://www.npmjs.com/package/lerna)
+Lerna __optimizes the workflow around managing multi-package repositories with git and npm.__ 
+It splits up large codebases into separate independently versioned packages is extremely useful for code sharing. 
+Package is available through npm:
+```
+npm i lerna
+```
+1) Install Lerna on local computer. 
+````
+$ npm install lerna
+````
+2) Create new folder
+````
+$ mkdir lerna-repo
+$ cd lerna-repo
+````
+3) Turn folder into a Lerna repo
+````
+$ lerna init
+````
+This will create a `lerna.json configuration file` and a packages folder, so your folder should now look like this:
+````
+lerna-repo/
+  packages/
+  package.json
+  lerna.json
+````
+
 #### [LINTER](https://www.npmjs.com/package/linter)
 linter is a compiler to select code quality tools into one module.
 Package is available through npm: 
@@ -160,10 +164,8 @@ jsdom/
   jsdom.json
 ````
 
-After all code dependencies are installed, do not forget to install the testing dependencies first.
-After that, you can start.
-
 ## Unit Testing
+After all code dependencies are installed, do not forget to install the testing dependencies first. After that, you can start to run the application.
 
 #### [Mocha](https://mochajs.org)
 Mocha is a feature-rich JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun. Mocha tests run serially, allowing for flexible and accurate reporting, while mapping uncaught exceptions to the correct test cases. Hosted on GitHub.
