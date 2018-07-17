@@ -12,7 +12,8 @@ _ [Configuration](#configuration)
 
 ## Requirements
 - [Node JS](https://nodejs.org/en/)
--[Mocha JS testing framework](https://mochajs.org/) and the 'assert' assertion library (bundled with mocha)
+- [Mocha JS testing framework](https://mochajs.org/) 
+- The 'assert' assertion library (bundled with mocha)
 - Windows, Linux or OSX
 - Working in a CLI (Windows: Command Prompt or Cygwin. Linux/Mac: Bash)
 - Working knowledge of Javascript - "Object Oriented" Javascript not essential
@@ -29,14 +30,12 @@ Step 2: Intall Mocha with `npm install mocha`
 Step 3: Create a test case 
 -By default, Mocha will run test.js in the current folder.
 - Run Mocha test cases: `node_modules/mocha/bin/mocha test`
-
-### Mocha Directories
-- `--recursive ` = to find test in all sub-directories.
+- To check existing test in all `Mocha (sub-)Directories`, use `--recursive`. 
 __NOTE:__ By default a 'test' directory has to exist to where it is run from.
                 
-Testing a Library
-Let say, we have a calc.js file that implements addition and multiplication:
-
+### Testing a Library
+The calc.js file implements addition and multiplication:
+```
 exports.add = function(i, j) {
 	return i + j;
 };
@@ -44,10 +43,24 @@ exports.add = function(i, j) {
 exports.mul = function(i, j) {
 	return i * j;
 }; 
-
-Write a unit tests to ensure that there is no bugs in add and mul. 
+```
+### Write a unit tests 
+- to ensure that there is no bugs in add and mul. 
 We implement our test cases in test.js:
 
+- `assert`= standard module that provides easy-to-use assertion functions. 
+- `calc`= calculator module.
+-`describe`= creates a `suite of test cases`, and it implements a test case. 
+
+NOTE:
+The first argument to it is an explanation of the test case, 
+and the second parameter is the test case function to which Mocha passes a done object. 
+done should be called whenever the test case is finished. 
+
+Inside the test case function, you should implement your test. 
+For example, we have checked that add(1, 1) returns 2, and mul(2, 2) return 4.
+
+```
 var assert = require('assert');
 var calc = require('./calc.js');
 // Tests are hierarchical. Here we define a test suite for our calculator.
@@ -56,7 +69,7 @@ describe('Calculator Tests', function() {
 	it('returns 1+1=2', function(done) {
 		assert.equal(calc.add(1, 1), 2);
 		// Invoke done when the test is complete.
-		done();
+		done(); 
 	});
 
 	it('returns 2*2=4', function(done) {
@@ -65,7 +78,7 @@ describe('Calculator Tests', function() {
 		done();
 	});
 });
-
+```
 Step 4: Create a failing class.
 - Run mocha against it
 
@@ -75,14 +88,16 @@ In JavaScript, testing an assertion library is essential.
 __NOTE: __ most testing frameworks come with one built in .
 
 Step 6: Implement the function inthe main class to make it work
+
 Step 7: Run moch to go green & commit if it does
 In mocha, `green` = all passing tests & `red` = failing tests.
 __NOTE: __If no test are defined for a method, it won't exercise the test function.
 
 
-assert is a standard module that provides easy-to-use assertion functions. calc is our calculator module.
 
-describe creates a suite of test cases, and it implements a test case. The first argument to it is an explanation of the test case, and the second parameter is the test case function to which Mocha passes a done object. done should be called whenever the test case is finished. Inside the test case function, you should implement your test. For example, we have checked that add(1, 1) returns 2, and mul(2, 2) return 4.
+
+
+
 
 Now, if you run Mocha you should see the following output:
 
@@ -215,7 +230,6 @@ To check if the server is running:
 1) Send a get request using http.get()
 2) Read the response
 3) Check if the server echoed 'Hello, Mocha!'
-
 
 ### SUMMARY
 1) Download Node JS if you don't have it
