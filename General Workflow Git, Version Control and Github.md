@@ -1,5 +1,5 @@
 # Let´s get started
-We, Violeta and Diana Vilé, are involved in the [Rails Girls Summer of Code scholarship](https://railsgirlssummerofcode.org/) as the DV Team since 2nd of July. We met each other in November 2017 during  the [Udacity Front-end Web Developer (FEND) Nanodegree](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001), for which we both received a full Google scholarship. This article shares our experiences and learnings of pair coding during the Rails Girls Summer of Code scholarship (july 2th- september 30th 2018). 
+We, Violeta and Diana Vilé, are involved in the [Rails Girls Summer of Code scholarship](https://railsgirlssummerofcode.org/) as the DV Team since 2nd of July. We met each other in November 2017 during  the [Udacity Front-end Web Developer (FEND) Nanodegree](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001), for which we both received a full Google scholarship. This article shares our __experiences and learnings of pair coding during the Rails Girls Summer of Code scholarship__ (july 2th- september 30th 2018). 
 
 ## EXPERIENCES: How to do pair programming in remote
 
