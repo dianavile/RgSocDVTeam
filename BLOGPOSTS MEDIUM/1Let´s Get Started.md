@@ -28,7 +28,7 @@ Shortly afterwards, we realized one thing: starting to code and do pair programm
 - We realized we both had a different learning style. While @V moves quickly forward, Diana needed more time to stick with the basics.
 
 #### Pair programming
-We decided to let our coaches be the bridge between our tight schedules and different learning styles. While, Violeta´s attended her [first tech conference](https://twitter.com/artnerdnet/status/1015883042462818305), Diana tried to stick with the basics learning Git, Version Control and Github (see here learnings below). While Diana is still catching up with Violeta´s speed, luckily we could communicate openly about it. Pair programming, especially almost fully remote, is hard, but even then still you can [Enjoy working even Friday night](https://twitter.com/artnerdnet/status/1017905655422881793).
+We decided to let our coaches be the bridge between our tight schedules and different learning styles. While, Violeta´s attended her [first tech conference](https://twitter.com/artnerdnet/status/1015883042462818305), Diana sticked with the basics learning [Git, Version Control and Github](https://github.com/dianavile/RgSocDVTeam/blob/master/General%20Workflow%20Git%2C%20Version%20Control%20and%20Github.md). While Diana is still catching up with Violeta´s speed, luckily we could communicate openly about it. Pair programming, especially almost fully remote, is hard, but even then still you can [enjoy working even Friday night](https://twitter.com/artnerdnet/status/1017905655422881793).
 
 ### Lessons Learned 
 - PREPARATION IS KEY
