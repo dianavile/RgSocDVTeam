@@ -3,7 +3,7 @@ We, Violeta and Diana Vilé, are involved in the Rails Girls Summer of Code scho
 
 ## EXPERIENCES: How to do pair programming in remote
 
-Pure excitement, is what we felt [when we got accepted](https://twitter.com/LSGorg/status/998830730405990400) for the Rails Girls Summer of Code scholarship. We couldn´t wait to start pair coding on a Open Source project together. We felt very privileged to be part of the Rails Girls Summer of Code community. Knowing it would become a busy summer, it didn´t long to realize we needed to prepare ourselves.
+Pure excitement, is what we felt [when we got accepted](https://twitter.com/LSGorg/status/998830730405990400) for the Rails Girls Summer of Code scholarship. We couldn´t wait to start pair coding on the Open Source project ["Living Style Guide"](https://livingstyleguide.org/) together. We felt very privileged to be part of the Rails Girls Summer of Code community. Knowing it would become a busy summer, it didn´t long to realize we needed to prepare ourselves.
 
 ### Getting ready
 Even before the Rails Girls Summer of Code experience started, life have been hectic, combining both a full-time job and complete opposite workschedules. Yet we managed to meet each other once or twice a week. 
