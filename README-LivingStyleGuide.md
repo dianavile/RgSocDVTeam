@@ -1,6 +1,8 @@
 # README Living Style Guide
 ['Living Style Guide'](https://speakerdeck.com/hagenburger/style-guide-driven-development) is `an important tool for modern web development, especially in large, complex web applications.`
 
+`markdown`, `parser`, `markdown-it`, `documentation`, `docs`, `styleguide`, `livingstyleguide`, `designsystem`, `generator`.
+
 ## Project Description: 
 [Living Style Guide](https://livingstyleguide.org/) is an __dynamic library DOC in an API__. 
  The `dynamic pattern library` document lives directly in the core Application (__API__) and details all elements, styles and coded modules of a site or application. It is: 
