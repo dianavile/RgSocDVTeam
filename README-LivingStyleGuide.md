@@ -2,7 +2,10 @@
 ['Living Style Guide'](https://speakerdeck.com/hagenburger/style-guide-driven-development) is `an important tool for modern web development, especially in large, complex web applications.`
 
 ## Project Description: 
- The `dynamic pattern library` document lives directly in the core Application (__API__) and details all elements, styles and coded modules of a site or application. 
+ The `dynamic pattern library` document lives directly in the core Application (__API__) and details all elements, styles and coded modules of a site or application. - `Style guide driven design` help: 
+- __Document the visual language styles and patterns__ (header styles, color pallettes)
+- __keep designers and developers in sync__, 
+- the entire team to __organize and distill changes in complex interfaces__.
  
 ## **Table of Contents**
 - [Living Style Guide Project](#project)
@@ -26,10 +29,6 @@ It is:
 3) __maintainable__ 
 4) It is __testable__
 
-- `Style guide driven design` help: 
-- 1) __Document the visual language styles and patterns__ (header styles, color pallettes)
-- 2) __keep designers and developers in sync__, 
-- 3) the entire team to __organize and distill changes in complex interfaces__.
 
 ## Getting Started
 - Instructions to run project on local machine (for development and testing):
