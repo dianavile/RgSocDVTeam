@@ -50,7 +50,7 @@ __IN TERMINAL- EDITOR:__
 
 __IN GITHUB:__
 
-#### Step 8: Open a pull request in Github
+#### Step 8: Open a pull request in Github 
 #### Step 9: Assign pull request to Code Author
 #### Step 10: Await Code review to be accepted/declined
 Await until Code Reviewer -responsable developer controls to make changes to master- accepts/declines pull request.
@@ -134,9 +134,7 @@ __Staging: changes to add or discard__
 - Pull changes from remote to local `git pull`
 - Push from local to remote `git push`
 
-- __EXAMPLE:__ From https://github.com/author/repository
-master     -> origin/master
-Updating  1 file changed, 28 insertions(+), 3 deletions(-)
+This is the general workflow in GIT, VERSION CONTROL AND GITHUB(STEP-BY-STEP). 
 
 
 
