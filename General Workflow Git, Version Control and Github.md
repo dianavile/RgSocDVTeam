@@ -2,7 +2,7 @@
 We, Violeta and Diana Vilé, are involved in the Rails Girls Summer of Code scholarship as the DV Team since 2nd of July. We met each other in November 2017 during  the Udacity Front-end Web Developer (FEND) Nanodegree, for which we both received a full Google scholarship. This article shares our experiences and learnings of pair coding during the Rails Girls Summer of Code scholarship(july 2th- september 30th 2018). 
 
 ## EXPERIENCES: How to do pair programming in remote
-### Accepted
+
 Pure excitement, is what we felt [when we got accepted](https://twitter.com/LSGorg/status/998830730405990400) for the Rails Girls Summer of Code scholarship. We couldn´t wait to start pair coding on a Open Source project together. We felt very privileged to be part of the Rails Girls Summer of Code community. Knowing it would become a busy summer, it didn´t long to realize we needed to prepare ourselves.
 
 ### Getting ready
