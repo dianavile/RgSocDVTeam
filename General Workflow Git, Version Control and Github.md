@@ -10,6 +10,7 @@ Even before the Rails Girls Summer of Code experience started, life have been he
 In the days before the official start: 
 
 1) We both attended a [Scrum Workshop](https://twitter.com/artnerdnet/status/1012799490456158209) giving by our Coach @cristina_verdi.
+![Scrum Workshop](https://github.com/dianavile/RgSocDVTeam/blob/master/img/Scrum_Workshop.png)
 2) We met for a strategy session to [Plan and Research for @RailsGirlsSoC](https://twitter.com/artnerdnet/status/1012799490456158209) 
 
 #### First day
