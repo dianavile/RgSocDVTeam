@@ -263,16 +263,6 @@ Currently supports all modern browsers: IE 9+, Chrome 7+, FireFox 4+, Safari 5+.
 
 If you want to know if your browser is compatible, run the online test suite.
 
-### End-to-end-tests
-- Explain what these tests test and why
-```
-Give an example
-```
-### Coding style tests
-- Explain what these tests test and why
-```
-Give an example
-```
 ## Development
 ### In Editor
 1) Click (right mouse click) to folder `PIMD-master` on your local computer.
