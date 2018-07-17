@@ -6,17 +6,17 @@ We, Violeta and Diana Vilé, are involved in the Rails Girls Summer of Code scho
 Pure excitement, is what we felt [when we got accepted](https://twitter.com/LSGorg/status/998830730405990400) for the Rails Girls Summer of Code scholarship. We couldn´t wait to start pair coding on a Open Source project together. We felt very privileged to be part of the Rails Girls Summer of Code community. Knowing it would become a busy summer, it didn´t long to realize we needed to prepare ourselves.
 
 ### Getting ready
-Even before the Rails Girls Summer of Code experience started, life have been hectic. Combining both a full-time job and complete opposite workschedules. Yet we managed to meet each other once or twice a week. In the days before the official start: 
+Even before the Rails Girls Summer of Code experience started, life have been hectic, combining both a full-time job and complete opposite workschedules. Yet we managed to meet each other once or twice a week. 
+In the days before the official start: 
 
-1) On Friday afternoon, we both attended a [Scrum Workshop](https://twitter.com/artnerdnet/status/1012799490456158209) giving by our Coach @cristina_verdi.
+1) We both attended a [Scrum Workshop](https://twitter.com/artnerdnet/status/1012799490456158209) giving by our Coach @cristina_verdi.
 PICTURE
 
-2) Sunday, we met for a strategy session to [Plan and Research for @RailsGirlsSoC](https://twitter.com/artnerdnet/status/1012799490456158209) 
+2) We met for a strategy session to [Plan and Research for @RailsGirlsSoC](https://twitter.com/artnerdnet/status/1012799490456158209) 
 PICTURE
 
-3) On Monday, we both read the [@RailsGirlsSoC guidelines](https://twitter.com/artnerdnet/status/1010835368051138560)
+3) We prepared ourselves reading the [@RailsGirlsSoC guidelines](https://twitter.com/artnerdnet/status/1010835368051138560)
 PICTURE, PDF
-
 
 
 
