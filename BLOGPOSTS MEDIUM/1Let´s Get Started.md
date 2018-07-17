@@ -3,6 +3,7 @@ We, Violeta and Diana Vilé, are involved in the [Rails Girls Summer of Code sch
 
 ## EXPERIENCE: How to do pair programming in remote
 Pure excitement, is what we felt [when we got accepted](https://twitter.com/LSGorg/status/998830730405990400) for the Rails Girls Summer of Code scholarship. We couldn´t wait to start pair coding on the Open Source project ["Living Style Guide"](https://livingstyleguide.org/) together. We felt very privileged to be part of the Rails Girls Summer of Code community. Knowing it would become a busy summer, it didn´t long to realize we needed to prepare ourselves.
+
 ![Acceptence](https://github.com/dianavile/RgSocDVTeam/blob/master/img/Living_Style_Guide.png)
 
 #### Getting ready
@@ -17,7 +18,7 @@ In the days before the official start:
 #### First day
 The first day, we prepared ourselves reading the [@RailsGirlsSoC guidelines](https://twitter.com/artnerdnet/status/1010835368051138560), looked into the Code and attended the official [@RailsGirlsSoC Kick-Off event]()
 ![@RailsGirlsSoC guidelines]()
-Read them here: [@RailsGirlsSoC guidelines]()
+Read them here: [@RailsGirlsSoC guidelines](https://github.com/dianavile/RgSocDVTeam/blob/master/RGSoC%202018_%20Student%20onboarding%20guide.pdf)
 
 #### Struggling to find a way 
 Shortly afterwards, we realized one thing: starting to code and do pair programming in remote isn´t easy:
