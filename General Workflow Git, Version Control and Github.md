@@ -21,30 +21,23 @@ It seems easy to learn a few commands to tell the computer what you want it to d
 ## GENERAL WORKFLOW in GIT, VERSION CONTROL AND GITHUB(STEP-BY-STEP):
 __IN TERMINAL- EDITOR:__
 
-#### Step 1: Create new branch from the parent branch: 
-- `git checkout -b feature/description`
+#### Step 1: Create new branch from the parent branch:  `git checkout -b feature/description`
 - __NOTE__: Be sure to always create a new child branch from the parent branche
 
-#### Step 2: Check if you are in the _parent branch:
-- `git branch` 
+#### Step 2: Check if you are in the _parent branch: `git branch` 
 - __NOTE__: `*name` of the parent branch (by default `master`) changes according to function.
 
-#### Step 3: Push new local branch to remote repository. 
-- `git push --set-upstream origin child/folder`
+#### Step 3: Push new local branch to remote repository.  `git push --set-upstream origin child/folder`
 
 #### Step 4: Make changes in your work in local code editor. Save changes in local file.
 
-#### Step 5: Add changes on local (that will be committed):
-- `git add .` (add all changes at once) 
-- OR `git add filename` (add specific changes).
+#### Step 5: Add changes on local (that will be committed): `git add .` (all changes) OR `git add filename` (specific change).
 
-#### Step 6: Make a commit (snapshot - picture of current state of code):
-- `git commit -m "explain change"`
+#### Step 6: Make a commit (snapshot - picture of current state of code): `git commit -m "explain change"`
 - Switch between branches: `git checkout master` (parent branch) OR `git checkout feature/branchename` (child branch)
 - Check changes made: `git branch`
 
-#### Step 7:Push local changes to remote repository:  
-- `git push --set-upstream origin child/folder`
+#### Step 7:Push local changes to remote repository:  `git push --set-upstream origin child/folder`
 - __NOTE__: To be able to push local changes to a remote repository, you need `collaborator access`to the repository. 
 - The owner of the repository can setup this collaborartion access to you, by inviting you by e-mail, to it´s respository. 
 - You need to accept it, before you can start to push the changes. 
@@ -59,12 +52,10 @@ Await until Code Reviewer -responsable developer controls to make changes to mas
 __IN TERMINAL- EDITOR:__ (After pull request is excepted:)
 
 TO PUSH CHANGE FROM LOCAL TO REMOTE:
-#### Step 11: Change to master branch 
-- `git checkout master`
+#### Step 11: Change to master branch `git checkout master`
 
 #### Step 12: Update changes in local editor with Remote repository 
-1) __Switch to a new branch:__ 
--  `git checkout -b newbranch/name`
+1) __Switch to a new branch:__  `git checkout -b newbranch/name`
 - Check branch status:  `git status`
 
 2) __Stage changes to commit:__
@@ -81,35 +72,27 @@ TO PUSH CHANGE FROM LOCAL TO REMOTE:
 - Unstage (unmake changes): `git reset HEAD <file>...`
 - Add description of message for commit to be changed:  `git commit -m "description"`
 
-5) __Push change to Remote repository:__
--  `git push --set-upstream origin ÙRL`
+5) __Push change to Remote repository:__  `git push --set-upstream origin ÙRL`
 
 TO PULL CHANGES FROM REMOTE TO LOCAL:
-#### Step 13: Add remote changes to local repository 
-- `git pull`
+#### Step 13: Add remote changes to local repository  `git pull`
 
-1) __Switch to a new branch:__
-- Switch to a new branch: ` git checkout -b branchname`
+1) __Switch to a new branch:__ ` git checkout -b branchname`
 
-2) __Make a commit (snapshot):__
-- Make commit with message (snapshot) on branch `git commit -m "description of change"`
+2) __Make a commit (snapshot) with message on branch:__ `git commit -m "description of change"`
 
-3) __Stage changes to commit:__
-- Stage changes to commit: `git add .`
+3) __Stage changes to commit:__ `git add .`
 
 4) __Check branches:__
-- Switch to branch 'master':  `git checkout master`
+- Switch to branch 'master': `git checkout master`
 - Check if branch is up-to-date- with 'origin/master': `git branch`
-  feature/basic-info
-* master
 
 5) __Switch between branches:__
 - Switch to branch 'feature/basic-info': `git checkout branchname`
 - Switch to branch 'master':  `git checkout master`
 - Switch back to branch 'feature/basic-info': `git checkout branchname`
 
-6) __Push change to Remote repository:__
--  `git push --set-upstream origin feature/basic-info`
+6) __Push change to Remote repository:__  `git push --set-upstream origin feature/basic-info`
 
 ## TERMINAL in CODE EDITOR
 
