@@ -22,21 +22,38 @@ It seems easy to learn a few commands to tell the computer what you want it to d
 ## GENERAL WORKFLOW in GIT, VERSION CONTROL AND GITHUB(STEP-BY-STEP):
 __IN TERMINAL- EDITOR:__
 
-1) Create new branch from the parent branch: `git checkout -b feature/description`
+### Step 1: Create new branch from the parent branch: `git checkout -b feature/description`
 - __NOTE__: Be sure to always create a new child branch from the parent branche
-2) Check if you are in the parent branch:  `git branch` 
+
+### Step 2: Check if you are in the _parent branch: `git branch` 
 - __NOTE__: `*name` of the parent branch (by default `master`) changes according to function.
-3) Push new local branch to remote repository: Make changes in your work in local code editor. Save changes in local file.
-4) Work on changes
-5) Add changes on local (that will be committed): `PS C:\Users\name\folder\repository> git add .`
-6) Make a commit (snapshot - picture of current state of code)
-7) Push the changes (push local changes to remote repository)
+
+### Step 3: Push new local branch to remote repository: 
+
+### Step 4: Make changes in your work in local code editor. Save changes in local file.
+
+### Step 5: Add changes on local (that will be committed):
+- `git add .` (add all changes at once) 
+- OR `git add filename` (add specific changes).
+
+### Step 6: Make a commit (snapshot - picture of current state of code): `git commit -m "explain change"`
+- _Switch between branches:_ `git checkout master` (parent branch), `git checkout feature/branchename` (child branch)
+- _Check changes_ made: `git branch`
+
+### Step 7:Push local changes to remote repository:  `git push --set-upstream origin child/folder`
+- __NOTE__: To be able to push local changes to a remote repository, you need `collaborator access`to the repository. 
+- The owner of the repository can setup this collaborartion access to you, by inviting you by e-mail, to it´s respository. 
+- You need to accept it, before you can start to push the changes. 
 
 __IN GITHUB:__
 
-8) Open pull request in Github
-9) Assign pull request to Code Author
-10) Await Code review (responsable developer controls to make changes to master)
+### Step 8: Open a pull request in Github
+
+### Step 9: Assign pull request to Code Author
+
+### Step 10: Await Code review 
+Await until Code Reviewer- responsable developer controls to make changes to master- accepts/declines pull request.
+
 11) After pull request is excepted
 
 __IN TERMINAL- EDITOR:__
@@ -45,44 +62,8 @@ __IN TERMINAL- EDITOR:__
 13) Add remote changes to local repository with `git pull`
 14) Delete local branch
 
-### Step 3: Push new local branch to remote repository & Work on Local Changes
-__Make changes:__
+
 - 
-- 
-### Step 4-5:  Work on Changes & Add Changes on Local 
-__Add changes:__
-- Add changes on local (to commit):`PS C:\Users\name\folder\repository> git add .`
-- `git add .` to add all changes at once.
-- OR: `git add filename`to add changes to specific file/folder.
-
-### Step 6: Make a Commit:
-__Commit changes:__
-- Make commit (snapshot of current state of code): `git commit -m "explain change"`
-- `PS C:\Users\name\folder\repository> git commit -m "improve app title"`
-
-__Switch between branches:__
-- Swith branch: `git checkout master`
-- Check changes made: `git branch`= Your branch is up to date with 'origin/master'
-- Switch branch to child branch: `git checkout feature/basic-info`
-- Switch branch back to parent branch: `git checkout master`
-
-### Step 7: Push local changes to remote:
-__Push local changes:__
-- Push local changes to remote repository: `git push --set-upstream origin child/folder`
-- `PS C:\Users\name\folder\repository> git push --set-upstream origin feature/basic-info`
-__
-- __NOTE__: To be able to push local changes to a remote repository, you need `collaborator access`to the repository. The owner of the repository can setup this collaborartion access to you, by inviting you by e-mail, to it´s respository. You need to accept it, before you can start to push the changes. 
-
-- __EXAMPLE:__
-- To https://github.com/author/repository.git
- * [new branch]      feature/branchname -> feature/branchname
-- Branch 'feature/basic-info' set up to track remote branch 'feature/basic-info' from 'origin'.
-
-## GITHUB 
-### Step 8: Open a pull request
-- Open pull request in Github
-### Step 9: Assign pull request to author
-- Await until Code Author (Code Reviewer) accepts/declines pull request.
 NOT SURE-----------------------------
 - `PS C:\Users\name\folder\repository> cd .. .`
 - `PS C:\Users\name\folder\repository> cd .\repository\`
@@ -95,8 +76,7 @@ Your branch is up to date with 'origin/master'.
 `PS C:\Users\name\folder\repository> git branch -d feature/basic-info`
 From https://github.com/author/repository
 NOT SURE-----------------------------
-### Step 10:
-### Step 11:
+
 
 ### Step 12: Update changes in local editor with Remote repository 
 (TO PUSH CHANGE FROM LOCAL TO REMOTE)
