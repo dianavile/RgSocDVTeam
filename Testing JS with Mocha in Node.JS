@@ -1,7 +1,5 @@
-# Testing JavaScript with Mocha in NodeJS
-
-How to unit test Javascript? 
-You can unit test JavaScript code with Mocha 
+#Testing JavaScript with Mocha in NodeJS
+How to unit test Javascript? with Mocha 
 
 ## What is Mocha
 [Mocha](https://mochajs.org/)= `a unittest frameworkfor [Node.js*(https://nodejs.org/en/). It makes asynchronous testing simple and fun.`
@@ -21,7 +19,6 @@ _ [Configuration](#configuration)
 - Familiarity with TDD
 
 ###[Installation](#installation)
-
 Step 1: Install [Node JS](https: //nodejs.org/en/)
 - Let Node add its directory into the Path, to use it from any Command Window.
 
@@ -33,31 +30,13 @@ Step 3: Create a test case
 -By default, Mocha will run test.js in the current folder.
 - Run Mocha test cases: `node_modules/mocha/bin/mocha test`
 
-
-
 ### Mocha Directories
 - `--recursive ` = to find test in all sub-directories.
 __NOTE:__ By default a 'test' directory has to exist to where it is run from.
-
-
-Step 4: Create a failing class.
-- Run mocha against it
-
-Step 5: Change the assertion message to make it meaningful
-An `assertion library` contains _result checking code to validate tests_.
-In JavaScript, testing an assertion library is essential.
-__NOTE: __ most testing frameworks come with one built in .
-
-Step 6: Implement the function inthe main class to make it work
-Step 7: Run moch to go green & commit if it does
-In mocha, `green` = all passing tests & `red` = failing tests.
-__NOTE: __If no test are defined for a method, it won't exercise the test function.
-
-
-                 
+                
 Testing a Library
 Let say, we have a calc.js file that implements addition and multiplication:
-``` 
+
 exports.add = function(i, j) {
 	return i + j;
 };
@@ -65,11 +44,10 @@ exports.add = function(i, j) {
 exports.mul = function(i, j) {
 	return i * j;
 }; 
-```
+
 Write a unit tests to ensure that there is no bugs in add and mul. 
 We implement our test cases in test.js:
 
-```
 var assert = require('assert');
 var calc = require('./calc.js');
 // Tests are hierarchical. Here we define a test suite for our calculator.
@@ -87,7 +65,20 @@ describe('Calculator Tests', function() {
 		done();
 	});
 });
-```
+
+Step 4: Create a failing class.
+- Run mocha against it
+
+Step 5: Change the assertion message to make it meaningful
+An `assertion library` contains _result checking code to validate tests_.
+In JavaScript, testing an assertion library is essential.
+__NOTE: __ most testing frameworks come with one built in .
+
+Step 6: Implement the function inthe main class to make it work
+Step 7: Run moch to go green & commit if it does
+In mocha, `green` = all passing tests & `red` = failing tests.
+__NOTE: __If no test are defined for a method, it won't exercise the test function.
+
 
 assert is a standard module that provides easy-to-use assertion functions. calc is our calculator module.
 
@@ -139,7 +130,6 @@ For this test.js, you should get the following output:
 
 # node_modules/mocha/bin/mocha test
 
-
   Calculator Tests
     Addition Tests
       ✓ returns 1 + 1 = 2
@@ -151,13 +141,13 @@ For this test.js, you should get the following output:
 
   4 passing (6ms)
 
-Testing a Server
-There is nothing special about testing a server except that we need to run the server to be able to test that. Well, you shouldn't do that manually. After all, unit tests are all about automation.
-
-Let's first write a simple HTTP server that echos 'Hello, Mocha!' when we send a get request to /:
-
+### Testing a Server
+You need to run the server automatically to be able to test. After all, unit tests are all about automation.
+1) Write a simple HTTP server that echos 'Hello, Mocha!' when we send a get request to /:
+```
 var http = require('http');
-
+```
+```
 // This is just an example HTTP server. Use your own application here.
 var server = http.createServer(function(req, res) {
 	res.writeHead(200);
@@ -174,10 +164,12 @@ exports.listen = function(port) {
 exports.close = function() {
 	server.close();
 };
-You can use any framework that you'd like including express.js. The only important point is that you should somehow export the functions to start and stop the server. Here, we have exported listen(port) and close().
+```
+NOTE: `export` the functions to __start__ and __stop__ the server. 
+Here, we have exported listen(port) and close().
 
-Now, let's implement test.js:
-
+Implement test.js:
+```
 var http = require('http');
 var assert = require('assert');
 
@@ -214,11 +206,15 @@ describe('HTTP Server Test', function() {
 		});
 	});
 });
-before and after are the functions you can use to run a code before starting and after finishing all testcases in your suite. In our example, we start run the server on port 8989 in before, and close it in after.
+```
 
-Now, we know that the server will be running. So, we just send a get request using http.get(), read the response, and make sure that the server has echoed 'Hello, Mocha!'
+before and after are the functions you can use to run a code before starting and after finishing all testcases in your suite. 
+In our example, we start run the server on port 8989 in before, and close it in after.
 
-Have fun hacking with Mocha!
+To check if the server is running:
+1) Send a get request using http.get()
+2) Read the response
+3) Check if the server echoed 'Hello, Mocha!'
 
 
 ### SUMMARY
