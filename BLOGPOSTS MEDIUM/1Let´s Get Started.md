@@ -2,7 +2,7 @@
 We, Violeta and Diana Vilé, are involved in the [Rails Girls Summer of Code scholarship](https://railsgirlssummerofcode.org/) as the DV Team since 2nd of July. We met each other in November 2017 during  the [Udacity Front-end Web Developer (FEND) Nanodegree](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001), for which we both received a full Google scholarship. This article shares our __experiences and learnings of pair coding during the Rails Girls Summer of Code scholarship__ (july 2th- september 30th 2018). 
 
 ## EXPERIENCE: How to do pair programming in remote
-
+![Acceptence](https://github.com/dianavile/RgSocDVTeam/blob/master/img/Living_Style_Guide.png)
 Pure excitement, is what we felt [when we got accepted](https://twitter.com/LSGorg/status/998830730405990400) for the Rails Girls Summer of Code scholarship. We couldn´t wait to start pair coding on the Open Source project ["Living Style Guide"](https://livingstyleguide.org/) together. We felt very privileged to be part of the Rails Girls Summer of Code community. Knowing it would become a busy summer, it didn´t long to realize we needed to prepare ourselves.
 
 #### Getting ready
@@ -12,7 +12,7 @@ In the days before the official start:
 1) We both attended a [Scrum Workshop](https://twitter.com/artnerdnet/status/1012799490456158209) giving by our Coach @cristina_verdi.
 ![Scrum Workshop](https://github.com/dianavile/RgSocDVTeam/blob/master/img/Scrum_Workshop.png)
 2) We met for a strategy session to [Plan and Research for @RailsGirlsSoC](https://twitter.com/artnerdnet/status/1012799490456158209) 
-![Strategy session]()
+![Strategy session](https://github.com/dianavile/RgSocDVTeam/blob/master/img/Daily_planning.png)
 
 #### First day
 The first day, we prepared ourselves reading the [@RailsGirlsSoC guidelines](https://twitter.com/artnerdnet/status/1010835368051138560), looked into the Code and attended the official [@RailsGirlsSoC Kick-Off event]()
