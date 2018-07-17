@@ -31,4 +31,6 @@ We decided to let our coaches be the bridge between our tight schedules and diff
 ## Lessons Learned 
 - Preparation is key, but don´t stick in it too long. Learn as much as you can, but __Start working and keep going.__
 - Coding is everything except being "a loner". To code, you need to communicate. Especially in remote settings, __communication is key__.
-- Pair programming is challenging, coding is hard, communication in remote is prone to misunderstanding. Despite this, attending the Rails Girls Summer of Code is really rewarding. No more playing around, we are really preparing ourselves to become professional front-end- developers.
+- Pair programming is challenging, coding is hard, communication in remote is prone to misunderstanding. 
+- Despite this, __attending the Rails Girls Summer of Code is really rewarding__. 
+- No more playing around, we are really __preparing ourselves to become professional front-end- developers.__
