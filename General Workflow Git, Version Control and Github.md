@@ -48,7 +48,6 @@ __IN TERMINAL- EDITOR:__
 - The owner of the repository can setup this collaborartion access to you, by inviting you by e-mail, to it´s respository. 
 - You need to accept it, before you can start to push the changes. 
 
-
 __IN GITHUB:__
 
 #### Step 8: Open a pull request in Github
@@ -56,10 +55,9 @@ __IN GITHUB:__
 #### Step 10: Await Code review to be accepted/declined
 Await until Code Reviewer -responsable developer controls to make changes to master- accepts/declines pull request.
 
-
 __IN TERMINAL- EDITOR:__ (After pull request is excepted:)
 
-TO PUSH CHANGE FROM LOCAL TO REMOTE:
+## TO PUSH CHANGE FROM LOCAL TO REMOTE:
 #### Step 11: Change to master branch 
 - `git checkout master`
 
@@ -86,7 +84,7 @@ TO PUSH CHANGE FROM LOCAL TO REMOTE:
 5) __Push change to Remote repository:__ 
 - `git push --set-upstream origin ÙRL`
 
-TO PULL CHANGES FROM REMOTE TO LOCAL:
+## TO PULL CHANGES FROM REMOTE TO LOCAL:
 #### Step 13: Add remote changes to local repository 
 - `git pull`
 
@@ -124,9 +122,7 @@ _After pull request acceptance, update and clean-up branches in local:_
 - Update changes with Git pull: `git pull`
 - Switch to new branch: `git checkout -b`
 - Check branch status:  `git status`
-
 __Staging: changes to add or discard__
-
 - Add changes to add (to update what will be committed: `git add <file>...`
 - Discard changes in working directory:  `git checkout -- <file>...`
 - Save changes locally with `git add.` or `git commit -a`
@@ -138,8 +134,7 @@ __Staging: changes to add or discard__
 - Pull changes from remote to local `git pull`
 - Push from local to remote `git push`
 
-- __EXAMPLE:__
-From https://github.com/author/repository
+- __EXAMPLE:__ From https://github.com/author/repository
 master     -> origin/master
 Updating  1 file changed, 28 insertions(+), 3 deletions(-)
 
