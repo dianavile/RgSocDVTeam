@@ -27,7 +27,6 @@ git clone https://github.com/hagenburger/pimd.git
 
 ### __STEP 2: Run app__
 Go to the root folder to run the app:
-
 ```
 cd pimd
 ```
@@ -81,13 +80,13 @@ lerna-repo/
   package.json
   lerna.json
 ````
-#### [MARKDOWN IT](https://github.com/markdown-it/markdown-it)
+#### [MARKDOWN IT](https://www.npmjs.com/package/markdown-it)
 Markdown parser done right. Fast and easy to extend.
-Download package via (https://www.npmjs.com/package/markdown-it)
+Package is available through npm:
 ```
 npm i markdown-it
 ```
-1) Install Markdown on local computer. 
+1) Install Markdown-it on local computer. 
 ````
 $ npm install markdown-it
 ````
@@ -107,11 +106,10 @@ markdown-it/
   package.json
   markdown-it.json
 ````
-#### [JSDOM](https://github.com/jsdom/jsdom)
+#### [JSDOM](https://www.npmjs.com/package/jsdom)
 jsdom is a pure-JavaScript implementation of many web standards, notably the WHATWG DOM and HTML Standards, for use with Node.js. 
 The main goal is to  emulate enough of a subset of a web browser to be useful for testing and scraping real-world web applications. 
-Download package via (https://www.npmjs.com/package/jsdom)
-
+Package is available through npm: 
 ```
 npm i jsdom
 ```
@@ -135,12 +133,32 @@ jsdom/
   package.json
   jsdom.json
 ````
-
-
-
-Package is available through npm:
-
-- [Linter](https://www.npmjs.com/package/linter)
+#### [LINTER](https://www.npmjs.com/package/linter)
+linter is a compiler to select code quality tools into one module.
+Package is available through npm: 
+```
+npm i linter
+```
+1) Install JSDOM on local computer. 
+````
+$ npm install linter
+````
+2) Create new folder
+````
+$ mkdir linter
+$ cd linter
+````
+3) Turn folder into a Linter
+````
+$ linter init
+````
+This will create a `linter.json configuration file` and a packages folder, so your folder should now look like this:
+````
+jsdom/
+  packages/
+  package.json
+  jsdom.json
+````
 
 After all code dependencies are installed, do not forget to install the testing dependencies first.
 After that, you can start.
@@ -160,7 +178,6 @@ To use a different reporter:
 
 $ REPORTER=nyan npm test
 ````
-
 
 ##### Getting started
 
