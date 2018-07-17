@@ -15,7 +15,7 @@ In the days before the official start:
 ### First day
 The first day, we prepared ourselves reading the [@RailsGirlsSoC guidelines](https://twitter.com/artnerdnet/status/1010835368051138560), looked into the Code and attended the official [@RailsGirlsSoC Kick-Off event]()
 
-### Struggling to find a way to do pair programming in remote
+### Struggling to find a way 
 Shortly afterwards, we realized one thing: starting isn´t easy. We both freaked out.
 
 - We didn´t understand the code. Not even a tiny bit.
