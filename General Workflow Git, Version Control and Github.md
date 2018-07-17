@@ -10,40 +10,29 @@ Even before the Rails Girls Summer of Code experience started, life have been he
 In the days before the official start: 
 
 1) We both attended a [Scrum Workshop](https://twitter.com/artnerdnet/status/1012799490456158209) giving by our Coach @cristina_verdi.
-PICTURE
-
 2) We met for a strategy session to [Plan and Research for @RailsGirlsSoC](https://twitter.com/artnerdnet/status/1012799490456158209) 
-PICTURE
-
-3) We prepared ourselves reading the [@RailsGirlsSoC guidelines](https://twitter.com/artnerdnet/status/1010835368051138560)
-PICTURE, PDF
-
-
-
-https://twitter.com/LSGorg/status/998830730405990400
-
-https://twitter.com/artnerdnet/status/1012800919048769537
-https://twitter.com/artnerdnet/status/1012799490456158209
-https://twitter.com/artnerdnet/status/1010835368051138560
 
 ### First day
-In just two weeks of time
-https://twitter.com/artnerdnet/status/1013682318454738947
- 
- we freaked out
+The first day, we prepared ourselves reading the [@RailsGirlsSoC guidelines](https://twitter.com/artnerdnet/status/1010835368051138560), looked into the Code and attended the official [@RailsGirlsSoC Kick-Off event]()
 
-Struggling with focusing after a long day
-https://twitter.com/artnerdnet/status/1015567892081979393
+### Struggling to find a way to do pair programming in remote
+Shortly afterwards, we realized one thing: starting isn´t easy. We both freaked out.
 
-Violeta´s first tech conference
-https://www.womenwhocode.com/blog/addc-my-first-tech-conference
-https://twitter.com/artnerdnet/status/1015883042462818305
+- We didn´t understand the code. Not even a tiny bit.
+- We [struggled to focus after a long working day](https://twitter.com/artnerdnet/status/1015567892081979393)
+- We realized we both had a different learning style. While @V moves quickly forward, Diana needed more time to stick with the basics.
+- We stuggled to meet once or twice a week. And decided to let our coaches be the bridge.
 
-Enjoying working even Friday night
+[Enjoying working even Friday night](https://twitter.com/artnerdnet/status/1017905655422881793)
 
-### EXPERIENCE 1: CODING IS HARD, BUT REWARDING
-### EXPERIENCE 2: PREPARATION IS KEY
-### EXPERIENCE 3: CODING = COMMUNICATION
+While, Violeta´s attended her [first tech conference](https://twitter.com/artnerdnet/status/1015883042462818305), Diana tried to stick with the basics. 
+
+
+
+### LESSONS LEARNED FROM OUR EXPERIENCE:
+LESSON 1: CODING IS HARD, BUT REWARDING
+LESSON 2: PREPARATION IS KEY
+LESSON 3: CODING = COMMUNICATION
 
 ## LEARNINGS: How to work in REMOTE (Git, Version Control and Github)
 ### LEARNING 1: KNOW YOUR BASICS
