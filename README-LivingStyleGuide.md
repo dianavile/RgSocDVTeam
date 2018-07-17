@@ -10,11 +10,10 @@
 4) It is __testable__
 
 ## Getting Started
-- Instructions to run project on local machine (for development and testing):
+Instructions to run project on local machine (for development and testing):
 
-#### Get a local copy of repository
-- To get copy of the project:
-
+### __STEP 1: Get a local copy of repository__
+Choose one of the below options to get a local copy of the repository:
 ###### Option 1: Use SSH
 ```
 git clone git@github.com/hagenburger/pimd.git
@@ -26,11 +25,16 @@ git clone https://github.com/hagenburger/pimd.git
 ###### Option 3: Download
 - Choose `Download` at [PIMP Repository](https://github.com/hagenburger/pimd) to download a zip file to your local computer.
 
-#### Run app
-Go to the root folder: 
+### __STEP 2: Run app__
+Go to the root folder to run the app:
+
 ```
 cd pimd
 ```
+
+## __STEP 3: Install Dependencies__
+Before you can start with project development, you first need to install the software dependencies:
+
 #### Option 1: Install and Execute with Yarn
 Install with Yarn:  
 ```
@@ -43,20 +47,16 @@ Install with npm:
 npm install
 npm start
 ```
+The following code dependencies need to be installed via `npm packages`: 
 
-## Install Dependencies
-Before you can start with project development, you first need to install the software dependencies.
-The following prerequisites `npm packages` (the code dependencies and test depencies via npm package) are needed to install: 
-
-- To install these packages:  
 - [Lerna](https://www.npmjs.com/package/lerna)
 - [Markdown-It](https://www.npmjs.com/package/markdown-it)
 - [JSDOM](https://www.npmjs.com/package/jsdom)
 - [Linter](https://www.npmjs.com/package/linter)
 
-
 #### [Lerna](https://www.npmjs.com/package/lerna)
-Lerna __optimizes the workflow around managing multi-package repositories with git and npm.__ It splits up large codebases into separate independently versioned packages is extremely useful for code sharing. 
+Lerna __optimizes the workflow around managing multi-package repositories with git and npm.__ 
+It splits up large codebases into separate independently versioned packages is extremely useful for code sharing. 
 Package is available through npm:
 ```
 npm i lerna
@@ -107,9 +107,37 @@ markdown-it/
   package.json
   markdown-it.json
 ````
-
 #### [JSDOM](https://github.com/jsdom/jsdom)
-jsdom is a pure-JavaScript implementation of many web standards, notably the WHATWG DOM and HTML Standards, for use with Node.js. In general, the goal of the project is to emulate enough of a subset of a web browser to be useful for testing and scraping real-world web applications. The latest versions of jsdom require Node.js v6 or newer. (Versions of jsdom below v10 still work with Node.js v4, but are unsupported.) As of v10, jsdom has a new API (documented below). The old API is still supported for now; see its documentation for details.
+jsdom is a pure-JavaScript implementation of many web standards, notably the WHATWG DOM and HTML Standards, for use with Node.js. 
+The main goal is to  emulate enough of a subset of a web browser to be useful for testing and scraping real-world web applications. 
+Download package via (https://www.npmjs.com/package/jsdom)
+
+```
+npm i jsdom
+```
+1) Install JSDOM on local computer. 
+````
+$ npm install jsdom
+````
+2) Create new folder
+````
+$ mkdir jsdom
+$ cd jsdom
+````
+3) Turn folder into a Markdown it
+````
+$ jsdom init
+````
+This will create a `jsdom.json configuration file` and a packages folder, so your folder should now look like this:
+````
+jsdom/
+  packages/
+  package.json
+  jsdom.json
+````
+
+
+
 Package is available through npm:
 
 - [Linter](https://www.npmjs.com/package/linter)
