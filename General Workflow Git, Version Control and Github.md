@@ -126,6 +126,7 @@ _After pull request acceptance, update and clean-up branches in local:_
 - Check branch status:  `git status`
 
 __Staging: changes to add or discard__
+
 - Add changes to add (to update what will be committed: `git add <file>...`
 - Discard changes in working directory:  `git checkout -- <file>...`
 - Save changes locally with `git add.` or `git commit -a`
