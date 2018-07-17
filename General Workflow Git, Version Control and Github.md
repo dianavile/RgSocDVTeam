@@ -1,5 +1,49 @@
 # Let´s get started
-We, V and Diana Vilé, are involved in the Rails Girls Summer of Code scholarship as the DV Team since 2nd of July. We met each other in November 2017 during  the Udacity Front-end Web Developer (FEND) Nanodegree, for which we both received a full Google scholarship. This article shares our experiences and learnings of pair coding during the Rails Girls Summer of Code scholarship(july 2th- september 30th 2018). 
+We, Violeta and Diana Vilé, are involved in the Rails Girls Summer of Code scholarship as the DV Team since 2nd of July. We met each other in November 2017 during  the Udacity Front-end Web Developer (FEND) Nanodegree, for which we both received a full Google scholarship. This article shares our experiences and learnings of pair coding during the Rails Girls Summer of Code scholarship(july 2th- september 30th 2018). 
+
+## EXPERIENCES: How to do pair programming in remote
+### Accepted
+Pure excitement, is what we felt [when we got accepted](https://twitter.com/LSGorg/status/998830730405990400) for the Rails Girls Summer of Code scholarship. We couldn´t wait to start pair coding on a Open Source project together. We felt very privileged to be part of the Rails Girls Summer of Code community. Knowing it would become a busy summer, it didn´t long to realize we needed to prepare ourselves.
+
+### Getting ready
+Even before the Rails Girls Summer of Code experience started, life have been hectic. Combining both a full-time job and complete opposite workschedules. Yet we managed to meet each other once or twice a week. In the days before the official start: 
+
+1) On Friday afternoon, we both attended a [Scrum Workshop](https://twitter.com/artnerdnet/status/1012799490456158209) giving by our Coach @cristina_verdi.
+PICTURE
+
+2) Sunday, we met for a strategy session to [Plan and Research for @RailsGirlsSoC](https://twitter.com/artnerdnet/status/1012799490456158209) 
+PICTURE
+
+3) On Monday, we both read the [@RailsGirlsSoC guidelines](https://twitter.com/artnerdnet/status/1010835368051138560)
+PICTURE, PDF
+
+
+
+
+https://twitter.com/LSGorg/status/998830730405990400
+
+https://twitter.com/artnerdnet/status/1012800919048769537
+https://twitter.com/artnerdnet/status/1012799490456158209
+https://twitter.com/artnerdnet/status/1010835368051138560
+
+### First day
+In just two weeks of time
+https://twitter.com/artnerdnet/status/1013682318454738947
+ 
+ we freaked out
+
+Struggling with focusing after a long day
+https://twitter.com/artnerdnet/status/1015567892081979393
+
+Violeta´s first tech conference
+https://www.womenwhocode.com/blog/addc-my-first-tech-conference
+https://twitter.com/artnerdnet/status/1015883042462818305
+
+Enjoying working even Friday night
+
+### EXPERIENCE 1: CODING IS HARD, BUT REWARDING
+### EXPERIENCE 2: PREPARATION IS KEY
+### EXPERIENCE 3: CODING = COMMUNICATION
 
 ## LEARNINGS: How to work in REMOTE (Git, Version Control and Github)
 ### LEARNING 1: KNOW YOUR BASICS
