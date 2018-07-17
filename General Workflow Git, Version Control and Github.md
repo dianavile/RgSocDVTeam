@@ -43,7 +43,7 @@ __IN TERMINAL- EDITOR:__
 - Switch between branches: `git checkout master` (parent branch) OR `git checkout feature/branchename` (child branch)
 - Check changes made: `git branch`
 
-### Step 7:Push local changes to remote repository:  
+#### Step 7:Push local changes to remote repository:  
 - `git push --set-upstream origin child/folder`
 - __NOTE__: To be able to push local changes to a remote repository, you need `collaborator access`to the repository. 
 - The owner of the repository can setup this collaborartion access to you, by inviting you by e-mail, to it´s respository. 
@@ -51,18 +51,18 @@ __IN TERMINAL- EDITOR:__
 
 __IN GITHUB:__
 
-### Step 8: Open a pull request in Github
-### Step 9: Assign pull request to Code Author
-### Step 10: Await Code review to be accepted/declined
+#### Step 8: Open a pull request in Github
+#### Step 9: Assign pull request to Code Author
+#### Step 10: Await Code review to be accepted/declined
 Await until Code Reviewer -responsable developer controls to make changes to master- accepts/declines pull request.
 
 __IN TERMINAL- EDITOR:__ (After pull request is excepted:)
 
 TO PUSH CHANGE FROM LOCAL TO REMOTE:
-### Step 11: Change to master branch 
+#### Step 11: Change to master branch 
 - `git checkout master`
 
-### Step 12: Update changes in local editor with Remote repository 
+#### Step 12: Update changes in local editor with Remote repository 
 1) __Switch to a new branch:__ 
 -  `git checkout -b newbranch/name`
 - Check branch status:  `git status`
@@ -85,7 +85,7 @@ TO PUSH CHANGE FROM LOCAL TO REMOTE:
 -  `git push --set-upstream origin ÙRL`
 
 TO PULL CHANGES FROM REMOTE TO LOCAL:
-### Step 13: Add remote changes to local repository 
+#### Step 13: Add remote changes to local repository 
 - `git pull`
 
 1) __Switch to a new branch:__
@@ -113,7 +113,7 @@ TO PULL CHANGES FROM REMOTE TO LOCAL:
 
 ## TERMINAL in CODE EDITOR
 
-### Step 14: Delete local branch
+#### Step 14: Delete local branch
 _After pull request acceptance, update and clean-up branches in local:_
 
 - Change to "master" branche: `git checkout master`
