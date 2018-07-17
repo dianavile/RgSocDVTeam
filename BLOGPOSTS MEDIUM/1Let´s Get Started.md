@@ -12,13 +12,12 @@ In the days before the official start:
 
 1) We both attended a [Scrum Workshop](https://twitter.com/artnerdnet/status/1012799490456158209) giving by our Coach @cristina_verdi.
 ![Scrum Workshop](https://github.com/dianavile/RgSocDVTeam/blob/master/img/Scrum_Workshop.png)
-2) We met for a strategy session to [Plan and Research for @RailsGirlsSoC](https://twitter.com/artnerdnet/status/1012799490456158209) 
+2) And met for a strategy session to [Plan and Research for @RailsGirlsSoC](https://twitter.com/artnerdnet/status/1012799490456158209) 
 ![Strategy session](https://github.com/dianavile/RgSocDVTeam/blob/master/img/Daily_planning.png)
 
 #### First day
-The first day, we prepared ourselves reading the [@RailsGirlsSoC guidelines](https://twitter.com/artnerdnet/status/1010835368051138560), looked into the Code and attended the official [@RailsGirlsSoC Kick-Off event]()
-![@RailsGirlsSoC guidelines]()
-Read them here: [@RailsGirlsSoC guidelines](https://github.com/dianavile/RgSocDVTeam/blob/master/RGSoC%202018_%20Student%20onboarding%20guide.pdf)
+The first day, we prepared ourselves reading the [@RailsGirlsSoC guidelines](https://twitter.com/artnerdnet/status/1010835368051138560), looked into the Code and attended the [@RailsGirlsSoC Kick-Off event](https://railsgirlssummerofcode.org/blog/2018-06-28-lets-get-rgsoc-started)
+Read them here: [@RailsGirlsSoC guidelines (https://github.com/dianavile/RgSocDVTeam/blob/master/RGSoC%202018_%20Student%20onboarding%20guide.pdf)
 
 #### Struggling to find a way 
 Shortly afterwards, we realized one thing: starting to code and do pair programming in remote isn´t easy:
