@@ -19,11 +19,11 @@
 - [Articles](#user-content-articles)
 
 #### Living Style Guide Project 
-[Living Style Guide](https://livingstyleguide.org/) is an __dynamic library DOC in an API__. It is: 
-1) __independent:__ It comes with specified templates per action. Each template contains: `HTML`, `CSS`, `Examples`, `Test cases`,`References`and `Screenshots`. 
-2) __easy to use:__ It _standardize the CSS_, with consistent names of modules, keeping the codebase small and quick to load.
-3) __maintainable:__ It maintains _design consistency_ troughout the production process. 
-- The designer can look in one place to reference the site’s components and ensure a cohesive look and feel throughout. 
+[Living Style Guide](https://livingstyleguide.org/) is an __dynamic library DOC in an API__. 
+It is: 
+1) __independent__ 
+2) __easy to use__ 
+3) __maintainable__ 
 4) It is __testable__
 
 - `Style guide driven design` help: 
