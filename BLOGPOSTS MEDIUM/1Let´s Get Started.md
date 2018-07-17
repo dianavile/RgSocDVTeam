@@ -7,8 +7,7 @@ Pure excitement, is what we felt [when we got accepted](https://twitter.com/LSGo
 ![Acceptence](https://github.com/dianavile/RgSocDVTeam/blob/master/img/Living_Style_Guide.png)
 
 #### Getting ready
-Even before the Rails Girls Summer of Code experience started, life have been hectic, combining both a full-time job and complete opposite workschedules. Yet we managed to meet each other once or twice a week. 
-In the days before the official start: 
+Even before the Rails Girls Summer of Code experience started, life have been hectic, combining both a full-time job and complete opposite workschedules. Yet we managed to meet each other once or twice a week. In the days before the start: 
 
 1) We both attended a [Scrum Workshop](https://twitter.com/artnerdnet/status/1012799490456158209) giving by our Coach @cristina_verdi.
 ![Scrum Workshop](https://github.com/dianavile/RgSocDVTeam/blob/master/img/Scrum_Workshop.png)
